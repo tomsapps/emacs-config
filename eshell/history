@@ -1,0 +1,25 @@
+cd
+ls
+cd dev/raise/giftcards/
+bundle exec rails c
+bundle
+rvm list
+rvm use 2.1.1
+rvm use ruby-2.2.0
+man rvm
+bundle exec rails c
+rvm help
+rvm use 2.1.1
+bundle exec rails c
+cd
+ls
+cd dev/raise//giftcards/
+rvm li9st
+rvm list
+bundle exec rails c
+rvm use 2.1.1
+rvm list
+cd ../../giftcards/
+bundle exec rails c
+rvm
+rvm list
