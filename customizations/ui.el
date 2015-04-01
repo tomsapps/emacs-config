@@ -4,6 +4,9 @@
 ;; a matter of preference and may require some fiddling to match your
 ;; preferences
 
+;; Display time in modeline
+(display-time-mode 1)
+
 ;; Turn off the menu bar at the top of each frame because it's distracting
 (menu-bar-mode -1)
 
