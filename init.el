@@ -131,6 +131,8 @@
 ;; Load deft, a notational velocity-esque notes tool
 (load "setup-deft.el")
 
+;; Setup helm-dash, a documentation browser
+
 ;; Load markdown mode for .txt, .markdown, and .md
 (load "setup-markdown-mode.el")
 
