@@ -1,11 +1,5 @@
 ;; Customizations relating to editing a buffer.
 
-;; Set backward-kill-word to be C-w, like in shell
-;; remap kill-region to C-x, C-k or C-c, C-k
-;; (global-set-key "\C-w" 'backward-kill-word)
-;; (global-set-key "\C-x\C-k" 'kill-region)
-;; (global-set-key "\C-c\C-k" 'kill-region)  ; this collides with cider binding
-
 ;; Key binding to use "hippie expand" for text autocompletion
 ;; http://www.emacswiki.org/emacs/HippieExpand
 (global-set-key (kbd "M-/") 'hippie-expand)
