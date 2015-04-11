@@ -2,8 +2,8 @@
 
 ;; Set backward-kill-word to be C-w, like in shell
 ;; remap kill-region to C-x, C-k or C-c, C-k
-(global-set-key "\C-w" 'backward-kill-word)
-(global-set-key "\C-x\C-k" 'kill-region)
+;; (global-set-key "\C-w" 'backward-kill-word)
+;; (global-set-key "\C-x\C-k" 'kill-region)
 ;; (global-set-key "\C-c\C-k" 'kill-region)  ; this collides with cider binding
 
 ;; Key binding to use "hippie expand" for text autocompletion
@@ -86,4 +86,4 @@
       (ns-get-selection-internal 'CLIPBOARD)
     (quit nil)))
 
-(setq electric-indent-mode nil)
+;; (setq electric-indent-mode nil)
