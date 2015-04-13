@@ -25,6 +25,9 @@
 ;; Use windmove package (shift+arrows to move around windows)
 (windmove-default-keybindings)
 
+;; Map previous-multiframe-window to s+" (matches next s+')
+(global-set-key (kbd "s-\"") 'previous-multiframe-window)
+
 ;; You can uncomment this to remove the graphical toolbar at the top. After
 ;; awhile, you won't need the toolbar.
 ;; (when (fboundp 'tool-bar-mode)
