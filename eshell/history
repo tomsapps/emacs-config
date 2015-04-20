@@ -1,25 +1,128 @@
+ls
+clear
+clear
+ls
+clear
+bundle exec rake routes
+ls
+cd ../..
+ls
+cd ..
+ls
+cd ..
+cd ..
+ls
 cd
 ls
-cd dev/raise/giftcards/
-bundle exec rails c
+brew help
+brew update
+brew list
+brew upgrade emacs
+brew install graphviz
+dot -Tpng -o test.png exclusion-to-juvenile-justice.dot 
+dot -Tpng -o test.png exclusion-to-juvenile-justice.dot 
+dot -Tpng -o test.png exclusion-to-juvenile-justice.dot 
+dot -Tpng -o test.png exclusion-to-juvenile-justice.dot 
+dot -Tpng -o test.png exclusion-to-juvenile-justice.dot 
+dot -Tpng -o test.png exclusion-to-juvenile-justice.dot 
+dot -Tpng -o exclusion-to-juvenile-justice.png exclusion-to-juvenile-justice.dot 
+ls
+cd dot-graphs/
+ls
+dot -Tpng -0 ../outputs/cd-to-juvenile-justice.png cognitive-distortion-to-juvenile-justice.dot 
+dot -Tpng -o ../outputs/cd-to-juvenile-justice.png cognitive-distortion-to-juvenile-justice.dot 
+dot -Tpng -o ../outputs/cd-to-juvenile-justice.png cognitive-distortion-to-juvenile-justice.dot 
+dot -Tpng -o ../outputs/skiba-graph.png skiba-graph.dot 
+dot -Tpng -o ../outputs/skiba-graph.png skiba-graph.dot 
+cd ../..
+ls
+cd clojure/
+cd ../claudia-dissertation-graphs/
+ls
+clear
+dot -Tpng -0 outputs/clauida-proposal.png dot-graphs/claudia-proposal.dot 
+dot -Tpng -o outputs/clauida-proposal.png dot-graphs/claudia-proposal.dot 
+dot -Tpng -o outputs/clauida-proposal.png dot-graphs/claudia-proposal.dot 
+dot -Tpng -o outputs/clauida-proposal.png dot-graphs/claudia-proposal.dot 
+ls
+ls
+cd ..
+ls
+cd clojure/
+cd ../clojure/
+cd ../claudia-dissertation-graphs/
+ls
+clear
+ls
+git status
+ls
+man git
+bundle exec rake routes
+(0.2ms)  UPDATE `preferences` SET `value` = 50, `updated_at` = '2015-04-14 15:17:48' WHERE `preferences`.`id` = 52
+ls
 bundle
-rvm list
-rvm use 2.1.1
-rvm use ruby-2.2.0
-man rvm
-bundle exec rails c
-rvm help
-rvm use 2.1.1
-bundle exec rails c
-cd
+bundle
+bundle
+cd ../push_notifications/
+cd ../phone_verification/
+bundle
+cd ../api/
+bundle
+cd ../legacy/
 ls
-cd dev/raise//giftcards/
-rvm li9st
-rvm list
-bundle exec rails c
-rvm use 2.1.1
-rvm list
-cd ../../giftcards/
-bundle exec rails c
-rvm
-rvm list
+bundle
+cd ../..
+bundle
+bundle
+cd gems/legacy/
+bundle
+cd ../..
+bundle
+grep -rin 'phone_verification' ./
+cd gems/legacy/
+bundle
+cd ../..
+bundle
+ls
+cd gems/api/
+bundle
+cd ../..
+bundle
+cd gems/api/
+bundle
+cd ../..
+ls
+bundle
+cat gems/legacy/Gemfile
+cat Gemfile.shared
+bundle
+ls
+bundle
+cd ../leg
+cd ../..
+ls
+cd ../
+ls
+cd ../legacy/
+ls
+bundle
+cd ../api/
+bundle
+bundle
+cd ../legacy/
+bundle
+cd ../api/
+bundle
+cd ../legacy/
+ls
+bundle
+bundle | grep phone
+cd ../api/
+ls
+bundle
+bundl;e
+bundle
+cd ../legacy/
+bundle
+brew info lein
+brew info leiningen
