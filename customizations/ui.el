@@ -25,8 +25,15 @@
 ;; Use windmove package (shift+arrows to move around windows)
 (windmove-default-keybindings)
 
+;; Piggyback framemove with windmove
+(require 'framemove)
+(setq framemove-hook-into-windmove t)
+
 ;; Map previous-multiframe-window to s+" (matches next s+')
 (global-set-key (kbd "s-\"") 'previous-multiframe-window)
+
+;; Use buffers in other frames if they exist
+(setq display-buffer-reuse-frames t)
 
 ;; You can uncomment this to remove the graphical toolbar at the top. After
 ;; awhile, you won't need the toolbar.
