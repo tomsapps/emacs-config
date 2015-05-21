@@ -6,8 +6,8 @@
   [url-cookie "__cfduid" "dda5dd045e80c5bfdb3576e37a63d96e71429195954" "15 Apr 16 14:52:34 [GMT]" "/" ".clojuredocs.org" nil]
   [url-cookie "HttpOnly" nil "15 Apr 16 14:52:34 [GMT]" "/" ".clojuredocs.org" nil])
  ("clojure.org"
-  [url-cookie "last_lesson" "26507316" "16-May-2015 14:53:16.00 GMT" "/" "clojure.org" nil]
-  [url-cookie "Max-Age" "2592000" "16-May-2015 14:53:16.00 GMT" "/" "clojure.org" nil])
+  [url-cookie "last_lesson" "26507316" "06-Jun-2015 14:59:45.00 GMT" "/" "clojure.org" nil]
+  [url-cookie "Max-Age" "2592000" "06-Jun-2015 14:59:45.00 GMT" "/" "clojure.org" nil])
  (".google.com"
   [url-cookie "PREF" "ID=826217406b186f10:U=218b913cce93186e:FF=0:TM=1429195933:LM=1429195946:S=2SJwKTz85wo37pvj" "15-Apr-2017 14:52:26.00 GMT" "/" ".google.com" nil]
   [url-cookie "NID" "67=uJ4wVUlGJXS61xBD6HVCojreL9emxJrEHftYnbiNgtEtR5pNSn2ktJ2FFIyU5HJ5TZFW8y6gklQs37QWuKBTlXhHwPVyD8gHnJWpv5gwk2R8bzOvEIPpfG1k3_zST8zA" "16-Oct-2015 14:52:13.00 GMT" "/" ".google.com" nil]
