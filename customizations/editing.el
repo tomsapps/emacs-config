@@ -72,7 +72,7 @@
 ;; (setq electric-indent-mode nil)
 
 
-(defun file-name-on-clipboard ()
+(defun yank-full-filepath ()
   "Put the current file name on the clipboard"
   (interactive)
   (let ((filename (if (equal major-mode 'dired-mode)

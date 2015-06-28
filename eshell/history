@@ -1,128 +1,128 @@
-git help log
-git log
-rails c
-bundle exec rails c
-cd ../..
+aws --profile
+aws help
+export AWS_DEFAULT_PROFILE=personal
+man sed
+export AWS_ACCESS_KEY=AKIAIJDX2Q52GD5THDPA
+export AWS_SECRET_KEY=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
+echo $AWS_ACCESS_KEY
 ls
 cd ../..
-bundle exec rails c
-clear
-bundle
-cd gems/phone_verification/
 ls
-bundle
-top
-man htop
-man top
-top -o cpu
-brew services
-brew services list
-brew services stop postgresql memcached redis mysql
-brew services list
-brew services --help
-brew services stop memcached
-brew services stop redis
-brew services stop mysql
-brew services list
-man emacs
-brew info emacs
-brew services list
-brew services start mysql
-brew services start redis
-brew services start memcached
-cd ../disseminator/
-ls
-git pull
-git status
-bin/deploy --branch arm/api-checkout-completed-order-guard api.raise-test.com
-bundle exec bin/deploy --branch arm/api-checkout-completed-order-guard api.raise-test.com
-cd ../giftcards/
-bundle
-cd gems/api/
-bundle
-cd ../..
-clear
 cd ..
 ls
-cd synced_files/
+cd apple\ certs/
 ls
-mkdir 2015-04-27
-aws --profile raisemarketplace s3 sync s3://raise-SECURE/apps/giftcards/config 2015-04-27/ --dryrun
-aws --profile raisemarketplace s3 sync s3://raise-SECURE/apps/giftcards/config 2015-04-27/
-ls
-cd 2015-0
-cd 2015-04-27/
-ls
-cd keys
-cd deploy/keys/
-ls
-cp ./rails.* ~/projects/giftcards/config/keys/
-ps aux | grep rails
-ls
-cd ~/dev/raise//giftcards/
-ls
-rm tmp/pids/server.pid 
-bundle
-cd gems/legacy/
-bundle
-cd ../..
-ls
-rake -T
-ls
-cd script/
+openssl pkcs12 -in Certificates.p12 -out remote_light_show_dev.pem -nodes -clcerts
+swift
+gem install aws-sdk
+cat ~/.aws/config 
+lein test
 ls
 cd ..
-man rake
-bundle exec rake -T
-bundle exec rake rebundle
-Using raise_stripe_webhook 0.0.1ls
-cd gems/phone_verification/
-bundle
-bundle
-cd ../..
-bundle exec rake rebundle
-bundle exec rake rebundle
-cd gems/phone_verification/
-bundle
-cd ../..
-bundle exec rake rebundle
-bundle
-bundle exec rake rebundle
-cal
-cal 2015
-cal 2015
-ps aux | grep rails
-ps aux | grep 3000
-rm tmp/pids/server.pid
-ps aux
-ps aux
-ps aux
-ps aux | grep 3000
-ps -a | grep 3000
-cd ../..
-bundle exec rake routes
-bundle exec rake routes | grep referral
-bundle exec rake routes | grep password
+ls
 cd ..
-bundle
-bundle exec rake rebundle
-bundle
-bundle exec rake solr:sunspot:start
-bundle exec rake sunspot:solr:start
-bundle
+cd ../personal/
+ls
+cd push-queue/
+ls
+cd push-queue/
+ls
+lein test
+lein test
+ls
+bundle exec sidekiq -C config/sidekiq.yml 
+bundle exec sidekiq -C config/sidekiq.yml 
+cd ../..
+ls
+cd ../..
+cd ..
+bundle exec sidekiq -C config/sidekiq.yml 
 bundle exec rake db:migrate
-git help merge
-clear
+bundle exec sidekiq -C config/sidekiq.yml 
+cd ../../..
 ls
-git help pull
-brew services list
-bundle exec rake sunspot:solr:start
+cd ../..
 ls
-bundle exec rake jobs:work
-bundle exec rake sunspot:solr:start
-brew services list
-bundle exec rake jobs:work
-bundle exec rake sunspot:solr:start
+bundle exec sidekiq -C config/sidekiq.yml 
+cd ../../..
+cd ..
+bundle exec rake routes | grep api
 bundle
-cd gems/deep_linking/
+bundle exec rake rebundle
+cd ../..
+ls
+cd ..
 bundle
+bundle
+ls
+cat Gemfile.lock
+cat Gemfile | grep timecop
+bundle
+cd ../..
+ls
+cd ..
+cd ..
+ls
+cd light-show-party/
+ls
+man sinatra
+ls
+pwd
+mkdir api
+cd api/
+ls
+bundle
+bundle
+ruby lights_party_api.rb 
+bundle exec ruby lights_party_api.rb 
+bundle exec ruby lights_party_api.rb 
+bundle exec ruby lights_party_api.rb 
+bundle exec ruby lights_party_api.rb 
+bundle
+bundle
+bundle exec ruby lights_party_api.rb 
+bundle exec ruby lights_party_api.rb 
+bundle exec ruby lights_party_api.rb 
+bundle exec ruby lights_party_api.rb 
+bundle exec ruby lights_party_api.rb 
+bundle exec ruby lights_party_api.rb 
+bundle exec ruby lights_party_api.rb 
+bundle exec ruby lights_party_api.rb 
+bundle exec ruby lights_party_api.rb 
+bundle exec ruby lights_party_api.rb 
+bundle exec ruby lights_party_api.rb 
+bundle exec ruby lights_party_api.rb 
+bundle exec ruby lights_party_api.rb 
+bundle exec ruby lights_party_api.rb 
+bundle exec ruby lights_party_api.rb 
+bundle exec ruby lights_party_api.rb 
+bundle exec ruby lights_party_api.rb 
+cd dev/personal/
+ls
+ls | grep ligh
+cd light-show-party/
+ls
+man lein
+lein help new
+ls
+lein new light-show-worker-queue
+cd light-show-worker-queue/
+tree
+lein run
+cd ..
+ls
+rm -rf light-show-worker-queue/
+lein new app light-show-worker-queue
+ls
+cd light-show-worker-queue/
+lein run
+cd ..
+ls
+cd ..
+ls
+cd push-queue/
+ls
+cd push-queue/
+ls
+lein test
+ls
