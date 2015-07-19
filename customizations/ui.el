@@ -33,6 +33,7 @@
 (global-set-key (kbd "s-\"") 'previous-multiframe-window)
 
 ;; Use buffers in other frames if they exist
+;; (only need this if using multiple monitors in my workflow)
 (setq display-buffer-reuse-frames t)
 
 ;; You can uncomment this to remove the graphical toolbar at the top. After

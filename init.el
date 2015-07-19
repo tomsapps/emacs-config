@@ -137,6 +137,9 @@
 ;; Load markdown mode for .txt, .markdown, and .md
 (load "setup-markdown-mode.el")
 
+;; Setup Magit
+(load "setup-magit.el")
+
 ;; Langauage-specific
 (load "setup-clojure.el")
 (load "setup-js.el")
