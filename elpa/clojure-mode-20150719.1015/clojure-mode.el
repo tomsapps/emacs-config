@@ -8,7 +8,7 @@
 ;;       Phil Hagelberg <technomancy@gmail.com>
 ;;       Bozhidar Batsov <bozhidar@batsov.com>
 ;; URL: http://github.com/clojure-emacs/clojure-mode
-;; Package-Version: 20150706.601
+;; Package-Version: 20150719.1015
 ;; Keywords: languages clojure clojurescript lisp
 ;; Version: 4.2.0-cvs
 ;; Package-Requires: ((emacs "24.3"))
@@ -433,11 +433,13 @@ Called by `imenu--generic-function'."
           '("*1" "*2" "*3" "*agent*"
             "*allow-unresolved-vars*" "*assert*" "*clojure-version*"
             "*command-line-args*" "*compile-files*"
-            "*compile-path*" "*e" "*err*" "*file*" "*flush-on-newline*"
+            "*compile-path*" "*data-readers*" "*default-data-reader-fn*"
+            "*e" "*err*" "*file*" "*flush-on-newline*"
             "*in*" "*macro-meta*" "*math-context*" "*ns*" "*out*"
             "*print-dup*" "*print-length*" "*print-level*"
             "*print-meta*" "*print-readably*"
             "*read-eval*" "*source-path*"
+            "*unchecked-math*"
             "*use-context-classloader*" "*warn-on-reflection*")
           t)
          "\\>")

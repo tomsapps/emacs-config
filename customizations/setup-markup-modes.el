@@ -7,3 +7,8 @@
 (add-to-list 'auto-mode-alist '("\\.text\\'" . markdown-mode))
 (add-to-list 'auto-mode-alist '("\\.markdown\\'" . markdown-mode))
 (add-to-list 'auto-mode-alist '("\\.md\\'" . markdown-mode))
+
+;;;;
+;; AsciiDoc
+;;;;
+(add-hook 'adoc-mode-hook (lambda() (buffer-face-mode t)))

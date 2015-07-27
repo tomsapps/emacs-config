@@ -134,8 +134,8 @@
 ;; Setup helm-dash, a documentation browser
 (load "setup-helm-dash.el")
 
-;; Load markdown mode for .txt, .markdown, and .md
-(load "setup-markdown-mode.el")
+;; Load setup for markup modes (currently markdown and asciidoc)
+(load "setup-markup-modes.el")
 
 ;; Setup Magit
 (load "setup-magit.el")

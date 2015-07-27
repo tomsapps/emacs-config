@@ -1,24 +1,3 @@
-aws help
-export AWS_DEFAULT_PROFILE=personal
-man sed
-export AWS_ACCESS_KEY=AKIAIJDX2Q52GD5THDPA
-export AWS_SECRET_KEY=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
-echo $AWS_ACCESS_KEY
-ls
-cd ../..
-ls
-cd ..
-ls
-cd apple\ certs/
-ls
-openssl pkcs12 -in Certificates.p12 -out remote_light_show_dev.pem -nodes -clcerts
-swift
-gem install aws-sdk
-cat ~/.aws/config 
-lein test
-ls
-cd ..
-ls
 cd ..
 cd ../personal/
 ls
@@ -126,3 +105,24 @@ ls
 lein test
 ls
 bundle
+cd dev/personal/
+ls
+mkdir clojure-http
+cd clojure-http/
+ls
+lein new clojure-http
+ls
+ls
+cd clojure-http/
+ls
+lein ring server-headless
+cd ..
+ls
+lein new compojure wassup
+lein help
+ls
+cd wassup/
+ls
+lein deps
+curl http://localhost:3000
+curl http://localhost:3000/json
