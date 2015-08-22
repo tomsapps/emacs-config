@@ -1,12 +1,3 @@
-cd ..
-cd ../personal/
-ls
-cd push-queue/
-ls
-cd push-queue/
-ls
-lein test
-lein test
 ls
 bundle exec sidekiq -C config/sidekiq.yml 
 bundle exec sidekiq -C config/sidekiq.yml 
@@ -126,3 +117,12 @@ ls
 lein deps
 curl http://localhost:3000
 curl http://localhost:3000/json
+cd
+ls
+cd dev/
+ls
+cd personal/
+cd clojure-http/
+cd ../clojure/
+ls
+lein new wassup
