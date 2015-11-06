@@ -17,7 +17,7 @@
 (column-number-mode 1)
 
 ;; Start in mac os x full-screen mode
-(toggle-frame-fullscreen)
+;; (toggle-frame-fullscreen)
 
 ;; Set winner-mode (C-c, left and C-c, right to undo/redo window actions)
 (winner-mode 1)

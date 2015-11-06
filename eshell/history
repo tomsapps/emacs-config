@@ -1,103 +1,4 @@
 ls
-bundle exec sidekiq -C config/sidekiq.yml 
-bundle exec sidekiq -C config/sidekiq.yml 
-cd ../..
-ls
-cd ../..
-cd ..
-bundle exec sidekiq -C config/sidekiq.yml 
-bundle exec rake db:migrate
-bundle exec sidekiq -C config/sidekiq.yml 
-cd ../../..
-ls
-cd ../..
-ls
-bundle exec sidekiq -C config/sidekiq.yml 
-cd ../../..
-cd ..
-bundle exec rake routes | grep api
-bundle
-bundle exec rake rebundle
-cd ../..
-ls
-cd ..
-bundle
-bundle
-ls
-cat Gemfile.lock
-cat Gemfile | grep timecop
-bundle
-cd ../..
-ls
-cd ..
-cd ..
-ls
-cd light-show-party/
-ls
-man sinatra
-ls
-pwd
-mkdir api
-cd api/
-ls
-bundle
-bundle
-ruby lights_party_api.rb 
-bundle exec ruby lights_party_api.rb 
-bundle exec ruby lights_party_api.rb 
-bundle exec ruby lights_party_api.rb 
-bundle exec ruby lights_party_api.rb 
-bundle
-bundle
-bundle exec ruby lights_party_api.rb 
-bundle exec ruby lights_party_api.rb 
-bundle exec ruby lights_party_api.rb 
-bundle exec ruby lights_party_api.rb 
-bundle exec ruby lights_party_api.rb 
-bundle exec ruby lights_party_api.rb 
-bundle exec ruby lights_party_api.rb 
-bundle exec ruby lights_party_api.rb 
-bundle exec ruby lights_party_api.rb 
-bundle exec ruby lights_party_api.rb 
-bundle exec ruby lights_party_api.rb 
-bundle exec ruby lights_party_api.rb 
-bundle exec ruby lights_party_api.rb 
-bundle exec ruby lights_party_api.rb 
-bundle exec ruby lights_party_api.rb 
-bundle exec ruby lights_party_api.rb 
-bundle exec ruby lights_party_api.rb 
-cd dev/personal/
-ls
-ls | grep ligh
-cd light-show-party/
-ls
-man lein
-lein help new
-ls
-lein new light-show-worker-queue
-cd light-show-worker-queue/
-tree
-lein run
-cd ..
-ls
-rm -rf light-show-worker-queue/
-lein new app light-show-worker-queue
-ls
-cd light-show-worker-queue/
-lein run
-cd ..
-ls
-cd ..
-ls
-cd push-queue/
-ls
-cd push-queue/
-ls
-lein test
-ls
-bundle
-cd dev/personal/
-ls
 mkdir clojure-http
 cd clojure-http/
 ls
@@ -126,3 +27,102 @@ cd clojure-http/
 cd ../clojure/
 ls
 lein new wassup
+cd ..
+ls
+git clone https://github.com/clojuredatascience/ch2-inference.git official-ch2
+cd official-ch2/
+ls
+lein run -e 2.1
+ls
+cd ..
+ls
+cd ch2-inference/
+ls
+cp data/dwell-times.tsv ./resources/
+ls
+ls
+mv data/* resources/
+ls
+ls data/
+ls
+rm data/
+rmdir data/
+ls
+ls resources/
+ls
+cp resources data
+man cp
+cp -R resources data
+ls resources/
+rm resources/*
+ls
+bundle
+ls
+cd spec/fixtures/
+ls
+cd vcr_cassettes/
+ls
+rm -rf phone_number_risk_assessment_valid_number_/
+ls
+cd dev/personal/kafka/
+ls
+lein new kafka-clojure-test
+ls
+mv kafka-clojure-test fast-kafka-clojure-test
+lein new clj-kafka-test
+curl https://api.raise-test.com/api/brands
+curl -v -X GET -H "client-id: 6a6022e64d7c2503e1be4b37436cfef1a5b9a064f66dc37100086b8392aa5bef" -H "Content-Type: application/json" https://api.raise-test.com/api/brands/walmart
+cd dev/personal/kafka/
+ls
+lein new clj-kafka-take-two
+ls
+cd ../..
+ls
+cd ..
+ls
+cd ..
+ls;
+cat project.clj
+cat ~/.aws/config 
+ls
+lein run live-inventory
+lein run weighted-average
+lein run weighted-average
+cd dev/personal/kafka/
+ls
+lein new clj-kafka-test
+ls
+cd clj-kafka-test/
+ls
+lein run -m clj-kafka-test.core test-topic
+lein run -m clj-kafka-test.core test-topic
+lein run -m clj-kafka-test.core test-topic
+lein run -m clj-kafka-test.core test-topic
+lein run -m clj-kafka-test.core test-topic
+lein run -m clj-kafka-test.core test-topic
+lein run -m clj-kafka-test.core test-topic
+lein run -m clj-kafka-test.core test-topic
+lein run -m clj-kafka-test.core test-topic
+lein run -m clj-kafka-test.core test
+lein run -m clj-kafka-test.core test
+lein run -m clj-kafka-test.core test
+lein run -m clj-kafka-test.core test
+lein run -m clj-kafka-test.core key-test
+lein run -m clj-kafka-test.core key-test
+lein run -m clj-kafka-test.core key-test
+lein run -m clj-kafka-test.core json-test
+lein run -m clj-kafka-test.core json-test
+lein run -m clj-kafka-test.core json-test
+lein run -m clj-kafka-test.core third-json-test
+lein run -m clj-kafka-test.core "third-json-test"
+lein run -m clj-kafka-test.core third-json-test
+lein run -m clj-kafka-test.core fourth-json-test
+lein run -m clj-kafka-test.core fourth-json-test
+cat ~/.aws/config 
+cd ../../..
+ls
+cd ../
+ls
+lein new compojure inventory-graphs-spa
+rm -rf inventory-graphs-spa
+lein new compojure inventory-graphs-access
