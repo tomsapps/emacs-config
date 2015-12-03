@@ -145,6 +145,7 @@
 (load "setup-js.el")
 (load "setup-ruby.el")
 (load "setup-rails.el")
+(load "setup-elixir.el")
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
