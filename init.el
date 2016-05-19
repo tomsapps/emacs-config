@@ -183,3 +183,5 @@
  '(company-tooltip-selection ((t (:inherit font-lock-function-name-face))))
  '(linum ((t (:foreground "#515151")))))
 (put 'downcase-region 'disabled nil)
+(put 'erase-buffer 'disabled nil)
+(put 'upcase-region 'disabled nil)

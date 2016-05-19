@@ -1,53 +1,4 @@
 ls
-mkdir clojure-http
-cd clojure-http/
-ls
-lein new clojure-http
-ls
-ls
-cd clojure-http/
-ls
-lein ring server-headless
-cd ..
-ls
-lein new compojure wassup
-lein help
-ls
-cd wassup/
-ls
-lein deps
-curl http://localhost:3000
-curl http://localhost:3000/json
-cd
-ls
-cd dev/
-ls
-cd personal/
-cd clojure-http/
-cd ../clojure/
-ls
-lein new wassup
-cd ..
-ls
-git clone https://github.com/clojuredatascience/ch2-inference.git official-ch2
-cd official-ch2/
-ls
-lein run -e 2.1
-ls
-cd ..
-ls
-cd ch2-inference/
-ls
-cp data/dwell-times.tsv ./resources/
-ls
-ls
-mv data/* resources/
-ls
-ls data/
-ls
-rm data/
-rmdir data/
-ls
 ls resources/
 ls
 cp resources data
@@ -126,3 +77,52 @@ ls
 lein new compojure inventory-graphs-spa
 rm -rf inventory-graphs-spa
 lein new compojure inventory-graphs-access
+ls
+cd ..
+ls
+cd ..
+ls
+ls
+mkdir -p src/om_tutorial
+lein run -m clojure.main script/figwheel.clj 
+ls
+cd ../...
+ls
+cd raise/
+ls
+cd deploy-giftwrap/
+ls
+ls
+vi .
+s
+ls
+ls
+ls
+find app
+clear
+ls
+ls
+find recipes/
+ls
+ls -alt
+ls -altt
+ls -altr
+tar -xzcf sag.html.tar.gz 
+tar -xvcf sag.html.tar.gz 
+tar -xvzf sag.html.tar.gz 
+ls
+wget http://www.tldp.org/LDP/sag/sag.txt
+ls
+man curl
+ls
+chmod +x backup-dashboards.sh 
+./backup-dashboards.sh 
+curl https://app.datadoghq.com/api
+curl -xS GET https://app.datadoghq.com/api/
+curl -Sx GET https://app.datadoghq.com/api/
+curl -sX GET https://app.datadoghq.com/api/
+curl -sX GET https://app.datadoghq.com/api/v1/dash
+./backup-dashboards.sh | jq .
+./backup-dashboards.sh | jq .
+man jq
+./backup-dashboards.sh
