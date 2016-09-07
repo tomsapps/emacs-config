@@ -1,0 +1,1 @@
+("~/.emacs.d/" "~/devel/personal/markov-twooter/" "~/devel/mentor/phase-1-assessment/" "~/devel/jemurai/triage/" "~/devel/personal/menu-calculator/")

@@ -1,0 +1,95 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/jones/devel/personal/twitter-connection-map/" . "spec/")
+ ("/Users/jones/devel/jemurai/triage/" . "script/")
+ ("/Users/jones/devel/personal/menu-calculator/src/" . "menu_calculator/")
+ ("/Users/jones/devel/personal/menu-calculator/" . "src/")
+ ("/Users/jones/devel/personal/" . "twitter-connection-map/")
+ ("/Users/jones/devel/mentor/phase-1-assessment/part-2/" . "spec/")
+ ("/Users/jones/devel/mentor/phase-1-assessment/" . "part-2/")
+ ("/Users/jones/devel/mentor/" . "phase-1-assessment/")
+ ("/Users/jones/devel/jemurai/triage/app/views/" . "layouts/")
+ ("/Users/jones/devel/jemurai/triage/app/" . "views/")
+ ("/Users/jones/devel/jemurai/" . "triage/")
+ ("/Users/jones/devel/" . "mentor/")
+ ("/Users/jones/" . "devel/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/jones/devel/mentor/phase-1-assessment/part-2/spec/"
+ "/Users/jones/devel/mentor/phase-1-assessment/part-2/"
+ "/Users/jones/devel/personal/twitter-connection-map/"
+ "/Users/jones/devel/personal/twitter-connection-map/spec/"
+ "/Users/jones/devel/personal/menu-calculator/src/menu_calculator/"
+ "/Users/jones/devel/jemurai/triage/script/"
+ "/Users/jones/"
+ "/Users/jones/devel/jemurai/triage/app/views/layouts/"
+ "/Users/jones/devel/jemurai/triage/app/views/dashboard/"
+ "/Users/jones/devel/jemurai/triage/app/controllers/"
+ "/Users/jones/devel/jemurai/triage/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "game_board_spec.rb"
+ "terrain_helper.rb"
+ "game_board.rb"
+ "tweet.rb"
+ "tweet_file_parser_spec.rb"
+ "tweet_file_parser.rb"
+ "simple-input.txt"
+ "core.clj"
+ "rails"
+ "inventory_manager.rb"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/jones/devel/mentor/phase-1-assessment/part-2/spec/" (22444 47426 0 0) "terrain_helper_spec.rb" "spec_helper.rb" "game_board_spec.rb" "../" "./")
+
+ ("/Users/jones/devel/mentor/phase-1-assessment/part-2/" (22444 47426 0 0) "terrain_helper.rb" "spec/" "README.md" "game_board.rb" "assets/" ".rspec" "../" "./")
+
+ ("/Users/jones/devel/mentor/phase-1-assessment/" (22444 47426 0 0) "rspec-help.md" "README.md" "part-5/" "part-4/" "part-3/" "part-2/" "part-1/" "panic.md" "Gemfile.lock" "Gemfile" ".git/" "../" "./")
+
+ ("/Users/jones/" (22444 47426 0 0) "VirtualBox VMs/" "Public/" "Pictures/" "Music/" "MUSHclient.ini" "Movies/" "Library/" "Downloads/" "Documents/" "devel/" "Desktop/" "Applications/" ".zshrc" ".zsh_history" ".zsh-update" ".zcompdump-Jones’s MacBook Air-5.0.8" ".wine/" ".Trash/" ".subversion/" ".ssh/" ".rspec" ".rbenv/" ".pry_history" ".oracle_jre_usage/" ".oh-my-zsh/" ".netrc" ".m2/" ".local/" ".lein/" ".hgrc" ".heroku/" ".gitconfig" ".gemrc~" ".gemrc" ".gem/" ".emacs.d/" ".DS_Store" ".config/" ".CFUserTextEncoding" ".cache/" ".bundle/" ".bash_sessions/" ".bash_profile" ".bash_history" ".atom/" "../" "./")
+
+ ("/Users/jones/devel/personal/twitter-connection-map/" (22443 48143 0 0) "tweet_file_parser.rb" "tweet.rb" "spec/" "simple-input.txt" ".git/" "../" "./")
+
+ ("/Users/jones/devel/personal/twitter-connection-map/spec/" (22443 47631 0 0) "tweet_file_parser_spec.rb" "../" "./")
+
+ ("/Users/jones/devel/personal/" (22443 47391 0 0) "web-enigma/" "twitter-connection-map/" "menu-calculator/" "jones-blog/" "../" "./")
+
+ ("/Users/jones/devel/personal/menu-calculator/" (22442 19119 0 0) "test/" "target/" "src/" "resources/" "README.md" "project.clj" "LICENSE" "doc/" "CHANGELOG.md" ".lein-repl-history" ".lein-failures" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/jones/devel/jemurai/" (22442 32053 0 0) "triage/" "newintrospect/" "beef/" "../" "./")
+
+ ("/Users/jones/devel/jemurai/triage/" (22442 29891 0 0) "vendor/" "test/" "spec/" "script/" "README.rdoc" "README.md" "README" "Rakefile" "public/" "LICENSE" "lib/" "Gemfile.lock" "Gemfile" "doc/" "db/" "config.ru" "config/" "brakeman.html" "app/" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/jones/devel/jemurai/triage/script/" (22434 11517 0 0) "rails" "../" "./")
+
+ ("/Users/jones/devel/personal/menu-calculator/src/menu_calculator/" (22442 7200 0 0) "menu.clj" "core.clj" "../" "./")
+
+ ("/Users/jones/devel/personal/menu-calculator/src/" (22442 7200 0 0) "menu_calculator/" "../" "./")
+
+ ("/Users/jones/devel/mentor/" (22436 41547 0 0) "phase-1-assessment/" "chi-mentor-info/" "../" "./")
+
+ ("/Users/jones/devel/mentor/chi-mentor-info/" (22435 38114 0 0) "README.md" ".git/" "../" "./")
+
+ ("/Users/jones/devel/jemurai/triage/app/views/layouts/" (22434 11517 0 0) "application.html.erb" "_navigation.html.erb" "_messages.html.erb" "_footer.html.erb" "../" "./")
+
+ ("/Users/jones/devel/jemurai/triage/app/views/dashboard/" (22434 11517 0 0) "show.html.erb" "../" "./")
+
+ ("/Users/jones/devel/jemurai/triage/app/views/" (22434 11517 0 0) "projects/" "layouts/" "devise/" "dashboard/" "../" "./")
+
+ ("/Users/jones/devel/jemurai/triage/app/controllers/" (22434 11517 0 0) "registrations_controller.rb" "projects_controller.rb" "dashboard_controller.rb" "application_controller.rb" "../" "./")
+
+ ("/Users/jones/devel/jemurai/triage/app/" (22434 11517 0 0) "views/" "uploaders/" "models/" "mailers/" "kaminari/" "helpers/" "controllers/" "assets/" "../" "./")
+
+ ("/Users/jones/devel/" (22435 38025 0 0) "personal/" "mentor/" "jemurai/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
