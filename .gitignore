@@ -44,3 +44,5 @@ flycheck_*.el
 # recent files
 places
 .recentf
+.smex-items
+
