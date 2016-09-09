@@ -1,25 +1,25 @@
-;;;;
-;; Packages
-;;;;
+(setq inhibit-startup-message t)
 
-;; Define package repositories
 (require 'package)
+
 (add-to-list 'package-archives
              '("marmalade" . "http://marmalade-repo.org/packages/") t)
 (add-to-list 'package-archives
              '("tromey" . "http://tromey.com/elpa/") t)
 (add-to-list 'package-archives
              '("melpa" . "http://melpa.milkbox.net/packages/") t)
+(add-to-list 'package-archives
+             '("melpa" . "http://melpa.org/packages/"))
 
-;; (setq package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
-;;                          ("marmalade" . "http://marmalade-repo.org/packages/")
-;;                          ("melpa" . "http://melpa-stable.milkbox.net/packages/")))
-
-
-;; Load and activate emacs packages. Do this first so that the
-;; packages are loaded before you start trying to modify them.
-;; This also sets the load path.
 (package-initialize)
+
+(unless (package-installed-p 'use-package)
+	(package-refresh-contents)
+	(package-install 'use-package))
+
+; fetch the list of packages available
+(unless package-archive-contents
+  (package-refresh-contents))
 
 ;; Download the ELPA archive description if needed.
 ;; This informs Emacs about the latest versions of all packages, and
@@ -38,12 +38,7 @@
     ;; key bindings and code colorization for Clojure
     ;; https://github.com/clojure-emacs/clojure-mode
     clojure-mode
-
-    ;; extra syntax highlighting for clojure
     clojure-mode-extra-font-locking
-
-    ;; integration with a Clojure REPL
-    ;; https://github.com/clojure-emacs/cider
     cider
 
     ;; allow ido usage in as many contexts as possible. see
@@ -92,19 +87,19 @@
 ;;
 ;; (require 'yaml-mode)
 ;; (add-to-list 'auto-mode-alist '("\\.yml$" . yaml-mode))
-;; 
+;;
 ;; Adding this code will make Emacs enter yaml mode whenever you open
 ;; a .yml file
 (add-to-list 'load-path "~/.emacs.d/vendor")
 
-
-;;;;
 ;; Customization
-;;;;
 
 ;; Add a directory to our load path so that when you `load` things
 ;; below, Emacs knows where to look for the corresponding file.
+
 (add-to-list 'load-path "~/.emacs.d/customizations")
+(add-to-list 'load-path "~/.emacs.d/customizations/emacs-doom-theme")
+(require 'doom-one-theme)
 
 ;; Sets up exec-path-from-shell so that Emacs will use the correct
 ;; environment variables
@@ -130,3 +125,67 @@
 ;; Langauage-specific
 (load "setup-clojure.el")
 (load "setup-js.el")
+
+(add-to-list 'load-path "/epla/neotree/neotree.el")
+(require 'neotree)
+(global-set-key [f8] 'neotree-toggle)
+(neotree-toggle)
+
+(add-to-list 'load-path "/epla/fringe-helper/fringe-helper.el")
+(require 'git-gutter-fringe)
+(global-git-gutter-mode t)
+
+(add-to-list 'load-path "/epla/nlinum/nlinum.el")
+(require 'nlinum)
+(nlinum-mode)
+
+(add-to-list 'load-path "/epla/nyan-mode/nyan-mode.el")
+(require 'nyan-mode)
+(nyan-mode t)
+
+(use-package which-key
+  :ensure t
+  :config
+  (which-key-mode))
+
+(require 'icicles)
+(icy-mode 1)
+
+(require 'multiple-cursors)
+(global-set-key (kbd "C->") 'mc/mark-next-like-this)
+(global-set-key (kbd "C-<") 'mc/mark-previous-like-this)
+(global-set-key (kbd "C-c C-<") 'mc/mark-all-like-this)
+
+(require 'fix-word)
+(global-set-key (kbd "M-u") #'fix-word-upcase)
+(global-set-key (kbd "M-l") #'fix-word-downcase)
+(global-set-key (kbd "M-c") #'fix-word-capitalize)
+
+(require 'buffer-move)
+(global-set-key (kbd "<C-S-up>")     'buf-move-up)
+(global-set-key (kbd "<C-S-down>")   'buf-move-down)
+(global-set-key (kbd "<C-S-left>")   'buf-move-left)
+(global-set-key (kbd "<C-S-right>")  'buf-move-right)
+
+
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(ansi-color-names-vector
+   (vector "#c5c8c6" "#cc6666" "#b5bd68" "#f0c674" "#81a2be" "#b294bb" "#8abeb7" "#1d1f21"))
+ '(coffee-tab-width 2)
+ '(custom-safe-themes
+   (quote
+    ("cc67c4d5fcd37a750975cd50fb2555c9654dc5b92b6fb04d65161bdc4d708b9b" "4cf3221feff536e2b3385209e9b9dc4c2e0818a69a1cdb4b522756bcdf4e00a4" "6bc2bb2b8de7f68df77642b0615d40dc7850c2906b272d3f83a511f7195b07da" default)))
+ '(global-nlinum-mode t)
+ '(package-selected-packages
+   (quote
+    (swiper use-package which-key tagedit smex rainbow-delimiters projectile powerline paredit ido-ubiquitous nyan-mode nlinum neotree moe-theme magit git-gutter-fringe exec-path-from-shell clojure-mode-extra-font-locking cider async))))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
