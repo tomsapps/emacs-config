@@ -172,7 +172,11 @@
   :init
   (progn
     (ac-config-default)
-    (global-auto-complete-mode t)
+    ;; (global-auto-complete-mode t)
+    (setq ac-use-menu-map t)
+    ;; Default settings
+    (define-key ac-menu-map "\C-n" 'ac-next)
+    (define-key ac-menu-map "\C-p" 'ac-previous)
     ))
 
 (custom-set-variables
