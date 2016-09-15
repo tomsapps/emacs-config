@@ -16,5 +16,5 @@ Anything without he following needs to be installed manually using MEPLA
 ---
 [Icicles](https://www.emacswiki.org/emacs/Icicles)  ✖️ [multiple-cursors](https://github.com/magnars/multiple-cursors.el) ✖️ [fix-word](https://github.com/mrkkrp/fix-word)
 ---
-[buffer-move](https://github.com/lukhas/buffer-move)
+[buffer-move](https://github.com/lukhas/buffer-move) ✖️ [auto-complete](https://github.com/auto-complete/auto-complete)
 ---
