@@ -123,7 +123,8 @@
 
 ;; Hard-to-categorize customizations
 (load "misc.el")
-
+;; stuff actually added by me
+(load "personal.el")
 ;; For editing lisps
 (load "elisp-editing.el")
 
