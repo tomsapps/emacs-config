@@ -70,3 +70,6 @@
     (quit nil)))
 
 (setq electric-indent-mode nil)
+
+;; overwrites highlighted region when you start typing
+(delete-selection-mode t)

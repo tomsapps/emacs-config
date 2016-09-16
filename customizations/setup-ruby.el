@@ -6,3 +6,5 @@
 ; (sp-with-modes '(rhtml-mode)
 ;   (sp-local-pair "<" ">")
 ;   (sp-local-pair ""))
+
+(add-hook 'ruby-mode-hook 'robe-mode)

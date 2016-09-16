@@ -12,3 +12,7 @@
 (setq inhibit-startup-message t
 	initial-scratch-message nil
     initial-major-mode 'clojure-mode)
+
+;; Enable normal text size changes
+(global-set-key (kbd "C-+") 'text-scale-increase)
+(global-set-key (kbd "C--") 'text-scale-decrease)
