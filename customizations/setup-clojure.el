@@ -80,3 +80,21 @@
      (define-key clojure-mode-map (kbd "C-M-r") 'cider-refresh)
      (define-key clojure-mode-map (kbd "C-c u") 'cider-user-ns)
      (define-key cider-mode-map (kbd "C-c u") 'cider-user-ns)))
+
+
+;; refresh cider repl on save
+(add-hook 'cider-mode-hook
+   '(lambda () (add-hook 'after-save-hook
+    '(lambda ()
+       (if (and (boundp 'cider-mode) cider-mode)
+    (cider-namespace-refresh)
+         )))))
+ 
+(defun cider-namespace-refresh ()
+  (interactive)
+  (cider-interactive-eval
+   "(require 'clojure.tools.namespace.repl)
+  (clojure.tools.namespace.repl/refresh)"))
+ 
+;;(define-key clojure-mode-map (kbd "C-c C-r") 'cider-namespace-refresh)
+
