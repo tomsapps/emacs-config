@@ -9,4 +9,6 @@
 (setq create-lockfiles nil)
 
 ;; Go straight to scratch buffer on startup
-(setq inhibit-startup-message t)
+(setq inhibit-startup-message t
+	initial-scratch-message nil
+    initial-major-mode 'clojure-mode)
