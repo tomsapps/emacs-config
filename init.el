@@ -96,8 +96,8 @@
 (add-to-list 'load-path "~/.emacs.d/vendor")
 
 ;; apparently multi-term is better
-(require 'multi-term)
-(setq multi-term-program "/bin/bash")
+;; (require 'multi-term)
+;; (setq multi-term-program "/bin/bash")
 
 ;;;;
 ;; Customization
@@ -142,6 +142,7 @@
 
 ;; Langauage-specific
 (load "setup-clojure.el")
+(load "setup-go.el")
 (load "setup-js.el")
 (load "setup-ruby.el")
 (load "setup-rails.el")
@@ -153,7 +154,7 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(ansi-color-faces-vector
-   [default bold shadow italic underline bold bold-italic bold])
+   [defaultm bold shadow italic underline bold bold-italic bold])
  '(ansi-color-names-vector
    ["#202020" "#ac4142" "#90a959" "#f4bf75" "#6a9fb5" "#aa759f" "#6a9fb5" "#e0e0e0"])
  '(coffee-tab-width 2)
@@ -168,6 +169,9 @@
  '(line-number-mode nil)
  '(magit-highlight-indentation (quote (("" . tabs) ("" . tabs))))
  '(magit-item-highlight-face (quote bold))
+ '(package-selected-packages
+   (quote
+    (yaml-mode terraform-mode tagedit smex smartparens ruby-compilation rspec-mode rbenv rainbow-mode rainbow-delimiters rainbow-blocks projectile-rails org multi-term markdown-mode magit kibit-helper jump ido-ubiquitous helm-swoop helm-dash haml-mode groovy-mode graphviz-dot-mode go-eldoc framemove feature-mode exec-path-from-shell deft color-theme-tango color-theme-solarized clojure-mode-extra-font-locking clojure-cheatsheet clj-refactor base16-theme alchemist ag adoc-mode)))
  '(rbenv-show-active-ruby-in-modeline nil)
  '(rspec-use-rake-when-possible nil)
  '(when (not (facep (aref ansi-term-color-vector 0)))))
