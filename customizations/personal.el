@@ -18,8 +18,11 @@
 (use-package smooth-scroll
   :config
   (smooth-scroll-mode 1)
-  (setq smooth-scroll/vscroll-step-size 1)
-  )
+  (setq smooth-scroll/vscroll-step-size 1))
+
+;; rebind meta to command key
+(setq mac-command-modifier 'meta)
+(setq mac-option-modifier nil)
 
 ;; set these to something better though
 ; (global-set-key [triple-wheel-left] 'previous-buffer)
