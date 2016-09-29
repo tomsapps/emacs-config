@@ -16,7 +16,7 @@
 ;; less janky mouse scrolling
 
 (setq mouse-wheel-scroll-amount '(1
-                                ((shift) . 2)
+                                ((shift) . 1)
                                 ((control))))
 
 ;; set these to something better though
