@@ -15,9 +15,11 @@
 
 ;; less janky mouse scrolling
 
-(setq mouse-wheel-scroll-amount '(1
-                                ((shift) . 1)
-                                ((control))))
+(use-package smooth-scroll
+  :config
+  (smooth-scroll-mode 1)
+  (setq smooth-scroll/vscroll-step-size 1)
+  )
 
 ;; set these to something better though
 ; (global-set-key [triple-wheel-left] 'previous-buffer)
