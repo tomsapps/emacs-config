@@ -13,12 +13,6 @@
 (global-set-key (kbd "M-p") 'move-line-up)
 (global-set-key (kbd "M-n") 'move-line-down)
 
-;; less janky mouse scrolling
-
-(use-package smooth-scroll
-  :config
-  (smooth-scroll-mode 1)
-  (setq smooth-scroll/vscroll-step-size 1))
 
 ;; rebind meta to command key
 (setq mac-command-modifier 'meta)
