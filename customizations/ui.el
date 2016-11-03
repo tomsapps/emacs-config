@@ -30,7 +30,7 @@
 
 ;; increase font size for better readability
 ; (set-face-attribute 'default nil :height 140)
-(set-face-attribute 'default nil :font "Inconsolata-g" :height 160)
+(set-face-attribute 'default nil :font "Monaco" :height 160)
 
 ;; Uncomment the lines below by removing semicolons and play with the
 ;; values in order to set the width (in characters wide) and height
@@ -68,3 +68,11 @@
 
 ;; no bell
 (setq ring-bell-function 'ignore)
+
+;; icons for neotree
+(use-package all-the-icons)
+
+;; neotree config
+(global-set-key [f8] 'neotree-toggle)
+(setq neo-theme (if window-system 'icons 'arrow))
+
