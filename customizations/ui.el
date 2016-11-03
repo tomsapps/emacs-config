@@ -73,6 +73,8 @@
 (use-package all-the-icons)
 
 ;; neotree config
+(use-package neotree)
+
 (global-set-key [f8] 'neotree-toggle)
 (setq neo-theme (if window-system 'icons 'arrow))
 
