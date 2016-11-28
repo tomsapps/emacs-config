@@ -150,7 +150,7 @@
  '(fci-rule-color "#eee8d5")
  '(package-selected-packages
    (quote
-    (tabbar haml-mode all-the-icons neotree coffee-mode yasnippet-bundle which-key web-mode use-package tagedit smooth-scroll smex smartparens rspec-mode robe rinari rainbow-delimiters projectile paredit move-line magit js2-mode ido-ubiquitous git-gutter-fringe flycheck exec-path-from-shell company-tern company-lua color-theme-sanityinc-solarized clojure-mode-extra-font-locking cider cask-package-toolset cask better-defaults auto-complete)))
+    (flycheck-elixir elixir-mode tabbar haml-mode all-the-icons neotree coffee-mode yasnippet-bundle which-key web-mode use-package tagedit smooth-scroll smex smartparens rspec-mode robe rinari rainbow-delimiters projectile paredit move-line magit js2-mode ido-ubiquitous git-gutter-fringe flycheck exec-path-from-shell company-tern company-lua color-theme-sanityinc-solarized clojure-mode-extra-font-locking cider cask-package-toolset cask better-defaults auto-complete)))
  '(vc-annotate-background nil)
  '(vc-annotate-color-map
    (quote
