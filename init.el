@@ -1,31 +1,55 @@
 (setq inhibit-startup-message t)
 
 (require 'package)
+;;;;;;;;;;;;;;;;;;;;;;;;;;;
+(setenv "PATH" (concat "/usr/local/bin:" (getenv "PATH")))
 
-(add-to-list 'package-archives
-             '("marmalade" . "http://marmalade-repo.org/packages/") t)
-(add-to-list 'package-archives
-             '("tromey" . "http://tromey.com/elpa/") t)
-(add-to-list 'package-archives
-             '("melpa" . "http://melpa.milkbox.net/packages/") t)
-(add-to-list 'package-archives
-             '("melpa" . "http://melpa.org/packages/"))
+(add-to-list 'package-archives '("org" . "http://orgmode.org/elpa/"))
+(add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/"))
+(add-to-list 'package-archives '("melpa-stable" . "http://stable.melpa.org/packages/"))
+
+(setq
+ package-enable-at-startup nil)
+(package-initialize)
+
+(defun ensure-package-installed (&rest packages)
+  "Assure every package is installed, ask for installation if it’s not.
+Return a list of installed packages or nil for every skipped package."
+  (mapcar
+   (lambda (package)
+     (unless (package-installed-p package)
+       (package-refresh-contents)
+       (package-install package)))
+   packages))
+
+;; Make sure to have downloaded archive description.
+(or (file-exists-p package-user-dir)
+    (package-refresh-contents))
+;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; (add-to-list 'package-archives
+;;              '("marmalade" . "http://marmalade-repo.org/packages/") t)
+;; (add-to-list 'package-archives
+;;              '("tromey" . "http://tromey.com/elpa/") t)
+;; (add-to-list 'package-archives
+;;              '("melpa" . "http://melpa.milkbox.net/packages/") t)
+;; (add-to-list 'package-archives
+;;              '("melpa" . "http://melpa.org/packages/"))
 
 (package-initialize)
 
-(unless (package-installed-p 'use-package)
-	(package-refresh-contents)
-	(package-install 'use-package))
-
-; fetch the list of packages available
-(unless package-archive-contents
-  (package-refresh-contents))
+;; (unless (package-installed-p 'use-package)
+;; 	(package-refresh-contents)
+;; 	(package-install 'use-package))
+;;
+;; ; fetch the list of packages available
+;; (unless package-archive-contents
+;;   (package-refresh-contents))
 
 ;; Download the ELPA archive description if needed.
 ;; This informs Emacs about the latest versions of all packages, and
 ;; makes them available for download.
-(when (not package-archive-contents)
-  (package-refresh-contents))
+;; (when (not package-archive-contents)
+;;   (package-refresh-contents))
 
 ;; The packages you want installed. You can also install these
 ;; manually with M-x package-install
@@ -99,7 +123,8 @@
 
 (add-to-list 'load-path "~/.emacs.d/customizations")
 (add-to-list 'load-path "~/.emacs.d/customizations/emacs-doom-theme")
-(require 'doom-one-theme)
+;; (require 'doom-one-theme)
+(load-theme 'atom-one-dark t)
 
 ;; Sets up exec-path-from-shell so that Emacs will use the correct
 ;; environment variables
@@ -178,6 +203,74 @@
     (define-key ac-menu-map "\C-n" 'ac-next)
     (define-key ac-menu-map "\C-p" 'ac-previous)
     ))
+
+(defun cider-namespace-refresh ()
+  (interactive)
+  (cider-interactive-eval
+   "(require 'clojure.tools.namespace.repl)
+  (clojure.tools.namespace.repl/refresh)"))
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; JavaScript
+(ensure-package-installed
+ 'js2-mode
+ 'js2-refactor
+ 'tern
+ 'company-tern
+ 'json-mode)
+
+(add-to-list
+ 'auto-mode-alist
+ '("\\.js\\'" . js2-mode))
+
+(setq-default
+ js-indent-level 2
+ js2-basic-offset 2
+ ;; Supress js2 mode errors
+ js2-mode-show-parse-errors nil
+ js2-mode-show-strict-warnings)
+
+(eval-after-load
+    'flycheck
+  (lambda ()
+    (flycheck-add-mode 'javascript-eslint 'js2-mode)
+    ;; Disable jshint
+    (setq-default
+     flycheck-disabled-checkers
+     (append flycheck-disabled-checkers
+	     '(javascript-jshint)))))
+
+(defun my-javascript-mode-hook ()
+  (js2-refactor-mode 1)
+  (tern-mode 1)
+  (add-to-list 'company-backends 'tern-company))
+
+(add-hook
+ 'js2-mode-hook
+ 'my-javascript-mode-hook)
+
+(require 'web-mode)
+(add-to-list 'auto-mode-alist '("\\.js$" . web-mode))
+(defadvice web-mode-highlight-part (around tweak-jsx activate)
+ (if (equal web-mode-content-type "jsx")
+     (let ((web-mode-enable-part-face nil))
+       ad-do-it)
+   ad-do-it))
+
+(provide 'language-javascript)
+;;; language-javascript.el ends here
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;   (add-to-list 'auto-mode-alist '("\\.html?\\'" . web-mode))
+;;   (add-to-list 'auto-mode-alist '("\\.js?\\'" . web-mode))
+;;   (add-to-list 'auto-mode-alist '("\\.jsx?\\'" . web-mode))
+;;   (add-to-list 'auto-mode-alist '("\\.phtml\\'" . web-mode))
+;;   (add-to-list 'auto-mode-alist '("\\.tpl\\.php\\'" . web-mode))
+;;   (add-to-list 'auto-mode-alist '("\\.[agj]sp\\'" . web-mode))
+;;   (add-to-list 'auto-mode-alist '("\\.as[cp]x\\'" . web-mode))
+;;   (add-to-list 'auto-mode-alist '("\\.erb\\'" . web-mode))
+;;   (add-to-list 'auto-mode-alist '("\\.mustache\\'" . web-mode))
+;;   (add-to-list 'auto-mode-alist '("\\.djhtml\\'" . web-mode))
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
