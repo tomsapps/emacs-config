@@ -76,3 +76,7 @@
 
 ;; overwrites highlighted region when you start typing
 (delete-selection-mode t)
+
+(setq yas-snippet-dirs
+      '("~/.emacs.d/snippets"                 ;; personal snippets
+        ))
