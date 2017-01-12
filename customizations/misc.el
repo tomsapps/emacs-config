@@ -16,3 +16,6 @@
 ;; Enable normal text size changes
 (global-set-key (kbd "C-+") 'text-scale-increase)
 (global-set-key (kbd "C--") 'text-scale-decrease)
+
+(add-hook 'css-mode 'electric-pair-mode)
+(add-hook 'scss-mode 'electric-pair-mode)
