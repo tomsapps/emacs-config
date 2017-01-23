@@ -46,3 +46,4 @@
  '(coffee-tab-width 2))
 
 (add-hook 'js-mode-hook 'electric-pair-mode)
+(add-hook 'js-mode-hook 'rainbow-delimiters-mode)
