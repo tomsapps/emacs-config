@@ -23,7 +23,7 @@
 (winner-mode 1)
 
 ;; Use windmove package (shift+arrows to move around windows)
-(windmove-default-keybindings)
+;; (windmove-default-keybindings)
 
 ;; Piggyback framemove with windmove
 (require 'framemove)

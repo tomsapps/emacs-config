@@ -84,3 +84,6 @@
         (clipboard-kill-region (point-min) (point-max)))
       (message filename))))
 
+(setq comint-buffer-maximum-size 2048)
+(add-hook 'comint-output-filter-functions 'comint-truncate-buffer)
+

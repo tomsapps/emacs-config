@@ -157,35 +157,73 @@
    [defaultm bold shadow italic underline bold bold-italic bold])
  '(ansi-color-names-vector
    ["#202020" "#ac4142" "#90a959" "#f4bf75" "#6a9fb5" "#aa759f" "#6a9fb5" "#e0e0e0"])
+ '(blink-cursor-mode nil)
  '(coffee-tab-width 2)
+ '(column-number-mode t)
  '(custom-safe-themes
    (quote
-    ("8f1cedf54f137f71382e3367e1843d10e173add99abe3a5f7d3285f5cc18f1a9" "c56d90af9285708041991bbc780a073182cbe91721de17c6e7a8aac1380336b3" "e3c90203acbde2cf8016c6ba3f9c5300c97ddc63fcb78d84ca0a144d402eedc6" "1157a4055504672be1df1232bed784ba575c60ab44d8e6c7b3800ae76b42f8bd" "2a86b339554590eb681ecf866b64ce4814d58e6d093966b1bf5a184acf78874d" "8022cea21aa4daca569aee5c1b875fbb3f3248a5debc6fc8cf5833f2936fbb22" "a0fdc9976885513b03b000b57ddde04621d94c3a08f3042d1f6e2dbc336d25c7" "f15a7ce08b9e13553c1f230678e9ceb5b372f8da26c9fb815eb20df3492253b7" "cf08ae4c26cacce2eebff39d129ea0a21c9d7bf70ea9b945588c1c66392578d1" "7f1263c969f04a8e58f9441f4ba4d7fb1302243355cb9faecb55aec878a06ee9" "31a01668c84d03862a970c471edbd377b2430868eccf5e8a9aec6831f1a0908d" "1297a022df4228b81bc0436230f211bad168a117282c20ddcba2db8c6a200743" "5ee12d8250b0952deefc88814cf0672327d7ee70b16344372db9460e9a0e3ffc" "52588047a0fe3727e3cd8a90e76d7f078c9bd62c0b246324e557dfa5112e0d0c" "9e54a6ac0051987b4296e9276eecc5dfb67fdcd620191ee553f40a9b6d943e78" default)))
+    ("9be1d34d961a40d94ef94d0d08a364c3d27201f3c98c9d38e36f10588469ea57" "2a998a3b66a0a6068bcb8b53cd3b519d230dd1527b07232e54c8b9d84061d48d" "b3bcf1b12ef2a7606c7697d71b934ca0bdd495d52f901e73ce008c4c9825a3aa" "cea3ec09c821b7eaf235882e6555c3ffa2fd23de92459751e18f26ad035d2142" "7a93450f1f29ea34785eb283564370ead201e54e2c5e7cf44f28f74e5bd60543" "8f1cedf54f137f71382e3367e1843d10e173add99abe3a5f7d3285f5cc18f1a9" "c56d90af9285708041991bbc780a073182cbe91721de17c6e7a8aac1380336b3" "e3c90203acbde2cf8016c6ba3f9c5300c97ddc63fcb78d84ca0a144d402eedc6" "1157a4055504672be1df1232bed784ba575c60ab44d8e6c7b3800ae76b42f8bd" "2a86b339554590eb681ecf866b64ce4814d58e6d093966b1bf5a184acf78874d" "8022cea21aa4daca569aee5c1b875fbb3f3248a5debc6fc8cf5833f2936fbb22" "a0fdc9976885513b03b000b57ddde04621d94c3a08f3042d1f6e2dbc336d25c7" "f15a7ce08b9e13553c1f230678e9ceb5b372f8da26c9fb815eb20df3492253b7" "cf08ae4c26cacce2eebff39d129ea0a21c9d7bf70ea9b945588c1c66392578d1" "7f1263c969f04a8e58f9441f4ba4d7fb1302243355cb9faecb55aec878a06ee9" "31a01668c84d03862a970c471edbd377b2430868eccf5e8a9aec6831f1a0908d" "1297a022df4228b81bc0436230f211bad168a117282c20ddcba2db8c6a200743" "5ee12d8250b0952deefc88814cf0672327d7ee70b16344372db9460e9a0e3ffc" "52588047a0fe3727e3cd8a90e76d7f078c9bd62c0b246324e557dfa5112e0d0c" "9e54a6ac0051987b4296e9276eecc5dfb67fdcd620191ee553f40a9b6d943e78" default)))
  '(display-time-24hr-format t)
  '(display-time-day-and-date t)
+ '(display-time-mode t)
  '(fci-rule-color "#393939")
  '(global-linum-mode t)
  '(global-rbenv-mode t)
+ '(ibuffer-saved-filter-groups
+   (quote
+    (("firsttry"
+      ("elevator"
+       (filename . "elevator"))
+      ("giftcards"
+       (filename . "giftcards"))
+      ("ruby"
+       (used-mode . ruby-mode))
+      ("go"
+       (used-mode . go-mode))
+      ("shell"
+       (used-mode . sh-mode))))))
+ '(ibuffer-saved-filters
+   (quote
+    (("gnus"
+      ((or
+        (mode . message-mode)
+        (mode . mail-mode)
+        (mode . gnus-group-mode)
+        (mode . gnus-summary-mode)
+        (mode . gnus-article-mode))))
+     ("programming"
+      ((or
+        (mode . emacs-lisp-mode)
+        (mode . cperl-mode)
+        (mode . c-mode)
+        (mode . java-mode)
+        (mode . idl-mode)
+        (mode . lisp-mode)))))))
  '(line-number-mode nil)
  '(magit-highlight-indentation (quote (("" . tabs) ("" . tabs))))
  '(magit-item-highlight-face (quote bold))
+ '(menu-bar-mode nil)
  '(package-selected-packages
    (quote
-    (yaml-mode terraform-mode tagedit smex smartparens ruby-compilation rspec-mode rbenv rainbow-mode rainbow-delimiters rainbow-blocks projectile-rails org multi-term markdown-mode magit kibit-helper jump ido-ubiquitous helm-swoop helm-dash haml-mode groovy-mode graphviz-dot-mode go-eldoc framemove feature-mode exec-path-from-shell deft color-theme-tango color-theme-solarized clojure-mode-extra-font-locking clojure-cheatsheet clj-refactor base16-theme alchemist ag adoc-mode)))
+    (dockerfile-mode protobuf-mode helm-ag groovy-mode yaml-mode terraform-mode tagedit smex smartparens ruby-compilation rspec-mode rbenv rainbow-mode rainbow-delimiters rainbow-blocks projectile-rails org multi-term markdown-mode magit kibit-helper jump ido-ubiquitous helm-swoop helm-dash haml-mode graphviz-dot-mode go-eldoc framemove feature-mode exec-path-from-shell deft color-theme-tango color-theme-solarized clojure-mode-extra-font-locking clojure-cheatsheet clj-refactor base16-theme alchemist ag adoc-mode)))
  '(rbenv-show-active-ruby-in-modeline nil)
  '(rspec-use-rake-when-possible nil)
+ '(show-paren-mode t)
+ '(tool-bar-mode nil)
  '(when (not (facep (aref ansi-term-color-vector 0)))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(default ((t (:inherit nil :stipple nil :background "White" :foreground "Black" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 140 :width normal :foundry "nil" :family "Menlo"))))
  '(company-scrollbar-bg ((t (:background "#464646"))))
  '(company-scrollbar-fg ((t (:background "#393939"))))
  '(company-tooltip ((t (:inherit default :background "#323232"))))
  '(company-tooltip-common ((t (:inherit font-lock-constant-face))))
  '(company-tooltip-selection ((t (:inherit font-lock-function-name-face))))
- '(linum ((t (:foreground "#515151")))))
+ '(linum ((t (:inherit (shadow default))))))
+ ;; '(linum ((t (:foreground "#515151")))))
 (put 'downcase-region 'disabled nil)
 (put 'erase-buffer 'disabled nil)
 (put 'upcase-region 'disabled nil)
