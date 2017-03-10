@@ -185,7 +185,8 @@
  ;; If there is more than one, they won't work right.
  '(js2-function-call ((t (:inherit default :foreground "#6c71c4"))))
  '(js2-object-property ((t (:inherit default :foreground "#b58900"))))
- '(rjsx-attr ((t (:background "#eee8d5" :foreground "#657b83")))))
+ '(rjsx-attr ((t (:background "#eee8d5" :foreground "#657b83"))))
+ '(rjsx-tag ((t (:foreground "#d33682")))))
 
 ;; initialize autocomplete in all buffers
 (add-hook 'after-init-hook 'global-company-mode)
