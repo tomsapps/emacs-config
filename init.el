@@ -143,19 +143,24 @@
    [default bold shadow italic underline bold bold-italic bold])
  '(ansi-color-names-vector
    (vector "#657b83" "#dc322f" "#859900" "#b58900" "#268bd2" "#d33682" "#2aa198" "#073642"))
+ '(blink-cursor-mode nil)
  '(coffee-tab-width 2)
  '(css-indent-offset 2)
  '(custom-safe-themes
    (quote
     ("a8245b7cc985a0610d71f9852e9f2767ad1b852c2bdea6f4aadc12cce9c4d6d0" "d677ef584c6dfc0697901a44b885cc18e206f05114c8a3b7fde674fce6180879" "8db4b03b9ae654d4a57804286eb3e332725c84d7cdab38463cb6b97d5762ad26" "4cf3221feff536e2b3385209e9b9dc4c2e0818a69a1cdb4b522756bcdf4e00a4" default)))
  '(fci-rule-color "#eee8d5")
+ '(js-switch-indent-offset 2)
  '(js2-highlight-level 3)
  '(js2-missing-semi-one-line-override t)
  '(js2-mode-assume-strict t)
  '(js2-strict-trailing-comma-warning nil)
+ '(menu-bar-mode nil)
  '(package-selected-packages
    (quote
     (ag company rjsx-mode solarized-theme color-theme-solarized jsx-mode flycheck-elixir elixir-mode tabbar haml-mode all-the-icons neotree coffee-mode yasnippet-bundle which-key web-mode use-package tagedit smooth-scroll smex smartparens rspec-mode robe rinari rainbow-delimiters projectile paredit move-line magit js2-mode ido-ubiquitous git-gutter-fringe flycheck exec-path-from-shell company-tern company-lua color-theme-sanityinc-solarized clojure-mode-extra-font-locking cider cask-package-toolset cask better-defaults auto-complete)))
+ '(show-paren-mode t)
+ '(tool-bar-mode nil)
  '(vc-annotate-background nil)
  '(vc-annotate-color-map
    (quote
@@ -183,6 +188,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(default ((t (:family "Source Code Pro for Powerline" :foundry "nil" :slant normal :weight normal :height 161 :width normal))))
  '(js2-function-call ((t (:inherit default :foreground "#6c71c4"))))
  '(js2-object-property ((t (:inherit default :foreground "#b58900"))))
  '(rjsx-attr ((t (:background "#eee8d5" :foreground "#657b83"))))
