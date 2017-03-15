@@ -150,6 +150,7 @@
    (quote
     ("a8245b7cc985a0610d71f9852e9f2767ad1b852c2bdea6f4aadc12cce9c4d6d0" "d677ef584c6dfc0697901a44b885cc18e206f05114c8a3b7fde674fce6180879" "8db4b03b9ae654d4a57804286eb3e332725c84d7cdab38463cb6b97d5762ad26" "4cf3221feff536e2b3385209e9b9dc4c2e0818a69a1cdb4b522756bcdf4e00a4" default)))
  '(fci-rule-color "#eee8d5")
+ '(global-whitespace-mode t)
  '(js-switch-indent-offset 2)
  '(js2-highlight-level 3)
  '(js2-missing-semi-one-line-override t)
@@ -192,7 +193,8 @@
  '(js2-function-call ((t (:inherit default :foreground "#6c71c4"))))
  '(js2-object-property ((t (:inherit default :foreground "#b58900"))))
  '(rjsx-attr ((t (:background "#eee8d5" :foreground "#657b83"))))
- '(rjsx-tag ((t (:foreground "#d33682")))))
+ '(rjsx-tag ((t (:foreground "#d33682"))))
+ '(whitespace-newline ((t (:inherit shadow :foreground "#eee8d5" :slant normal)))))
 
 ;; initialize autocomplete in all buffers
 (add-hook 'after-init-hook 'global-company-mode)
