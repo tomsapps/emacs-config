@@ -183,7 +183,8 @@
      (320 . "#6c71c4")
      (340 . "#dc322f")
      (360 . "#cb4b16"))))
- '(vc-annotate-very-old-color nil))
+ '(vc-annotate-very-old-color nil)
+ '(whitespace-line-column 200))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -194,6 +195,7 @@
  '(js2-object-property ((t (:inherit default :foreground "#b58900"))))
  '(rjsx-attr ((t (:background "#eee8d5" :foreground "#657b83"))))
  '(rjsx-tag ((t (:foreground "#d33682"))))
+ '(whitespace-line ((t nil)))
  '(whitespace-newline ((t (:inherit shadow :foreground "#eee8d5" :slant normal)))))
 
 ;; initialize autocomplete in all buffers
