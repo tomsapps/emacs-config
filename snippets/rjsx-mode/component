@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# name : react_component
+# key : comp
+# --
+const ${1:enumerate} = React.createClass({
+  render() {
+    return (
+      <View>
+        $0
+      </View>
+    );
+  }
+});
+
+export default $1;

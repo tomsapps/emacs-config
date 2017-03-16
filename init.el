@@ -159,7 +159,7 @@
  '(menu-bar-mode nil)
  '(package-selected-packages
    (quote
-    (ag company rjsx-mode solarized-theme color-theme-solarized jsx-mode flycheck-elixir elixir-mode tabbar haml-mode all-the-icons neotree coffee-mode yasnippet-bundle which-key web-mode use-package tagedit smooth-scroll smex smartparens rspec-mode robe rinari rainbow-delimiters projectile paredit move-line magit js2-mode ido-ubiquitous git-gutter-fringe flycheck exec-path-from-shell company-tern company-lua color-theme-sanityinc-solarized clojure-mode-extra-font-locking cider cask-package-toolset cask better-defaults auto-complete)))
+    (yasnippet ag company rjsx-mode solarized-theme color-theme-solarized jsx-mode flycheck-elixir elixir-mode tabbar haml-mode all-the-icons neotree coffee-mode yasnippet-bundle which-key web-mode use-package tagedit smooth-scroll smex smartparens rspec-mode robe rinari rainbow-delimiters projectile paredit move-line magit js2-mode ido-ubiquitous git-gutter-fringe flycheck exec-path-from-shell company-tern company-lua color-theme-sanityinc-solarized clojure-mode-extra-font-locking cider cask-package-toolset cask better-defaults auto-complete)))
  '(show-paren-mode t)
  '(tool-bar-mode nil)
  '(vc-annotate-background nil)
@@ -193,7 +193,7 @@
  '(default ((t (:family "Source Code Pro for Powerline" :foundry "nil" :slant normal :weight normal :height 161 :width normal))))
  '(js2-function-call ((t (:inherit default :foreground "#6c71c4"))))
  '(js2-object-property ((t (:inherit default :foreground "#b58900"))))
- '(rjsx-attr ((t (:background "#eee8d5" :foreground "#657b83"))))
+ '(rjsx-attr ((t (:foreground "#657b83"))))
  '(rjsx-tag ((t (:foreground "#d33682"))))
  '(whitespace-line ((t nil)))
  '(whitespace-newline ((t (:inherit shadow :foreground "#eee8d5" :slant normal)))))
@@ -202,3 +202,6 @@
 (add-hook 'after-init-hook 'global-company-mode)
 
 (global-set-key (kbd "C-'") 'ag)
+
+(yas-global-mode 1)
+(global-set-key (kbd "C-,") 'yas-expand)
