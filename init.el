@@ -134,6 +134,7 @@
 (load "setup-ruby.el")
 (load "setup-lua.el")
 (load "setup-c.el")
+(load "setup-go.el")
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -159,7 +160,7 @@
  '(nyan-mode t)
  '(package-selected-packages
    (quote
-    (buffer-move multiple-cursors go-autocomplete go-mode gom-mode nyan-mode yasnippet ag company rjsx-mode solarized-theme color-theme-solarized jsx-mode flycheck-elixir elixir-mode tabbar haml-mode all-the-icons neotree coffee-mode yasnippet-bundle which-key web-mode use-package tagedit smooth-scroll smex smartparens rspec-mode robe rinari rainbow-delimiters projectile paredit move-line magit js2-mode ido-ubiquitous git-gutter-fringe flycheck exec-path-from-shell company-tern company-lua color-theme-sanityinc-solarized clojure-mode-extra-font-locking cider cask-package-toolset cask better-defaults auto-complete)))
+    (highlight-indent-guides buffer-move multiple-cursors go-autocomplete go-mode gom-mode nyan-mode yasnippet ag company rjsx-mode solarized-theme color-theme-solarized jsx-mode flycheck-elixir elixir-mode tabbar haml-mode all-the-icons neotree coffee-mode yasnippet-bundle which-key web-mode use-package tagedit smooth-scroll smex smartparens rspec-mode robe rinari rainbow-delimiters projectile paredit move-line magit js2-mode ido-ubiquitous git-gutter-fringe flycheck exec-path-from-shell company-tern company-lua color-theme-sanityinc-solarized clojure-mode-extra-font-locking cider cask-package-toolset cask better-defaults auto-complete)))
  '(show-paren-mode t)
  '(tool-bar-mode nil)
  '(vc-annotate-background nil)
@@ -189,7 +190,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((t (:family "Inconsolata" :foundry "nil" :slant normal :weight normal :height 141 :width normal))))
+ '(default ((t (:family "Monaco" :foundry "nil" :slant normal :weight normal :height 141 :width normal))))
  '(js2-function-call ((t (:inherit default :foreground "#6c71c4"))))
  '(js2-object-property ((t (:inherit default :foreground "#b58900"))))
  '(rjsx-attr ((t (:foreground "#657b83"))))

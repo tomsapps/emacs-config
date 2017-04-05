@@ -29,6 +29,7 @@
 ;; (require 'atom-one-dark-theme)
 ;; (atom-one-dark-theme t)
 (load-file "~/.emacs.d/themes/atom-one-dark-theme.el")
+(load-file "~/.emacs.d/customizations/fringe-helper.el/fringe-helper.el")
 
 ;; increase font size for better readability
 ; (set-face-attribute 'default nil :height 140)
@@ -78,9 +79,21 @@
 (use-package neotree)
 
 (global-set-key [f8] 'neotree-toggle)
-(setq neo-theme (if window-system 'icons 'arrow))
+;; (setq neo-theme (if window-system 'icons 'arrow))
 
 (global-set-key (kbd "M-<left>") 'windmove-left)
 (global-set-key (kbd "M-<right>") 'windmove-right)
 (global-set-key (kbd "M-<up>") 'windmove-up)
 (global-set-key (kbd "M-<down>") 'windmove-down)
+
+;; indent guides
+(add-hook 'prog-mode-hook 'highlight-indent-guides-mode)
+(setq highlight-indent-guides-method 'character)
+
+;; git
+(setq linum-format "%d ")
+
+;; Please adjust fringe width if your own sign is too big.
+;; (setq-default left-fringe-width  10)
+;; (setq-default right-fringe-width  0)
+;; (set-face-attribute 'fringe nil :background "black")

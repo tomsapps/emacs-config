@@ -2,10 +2,18 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/Users/tomaszsok/.emacs.d/" . "customizations/")
+ ("/Users/tomaszsok/Desktop/proj/api/raise/src/services/" . "card/")
+ ("/Users/tomaszsok/Desktop/proj/api/raise/src/" . "services/")
+ ("/Users/tomaszsok/Desktop/proj/api/raise/" . "src/")
+ ("/Users/tomaszsok/Desktop/proj/api/" . "raise/")
+ ("/Users/tomaszsok/Desktop/proj/" . "api/")
+ ("/Users/tomaszsok/Desktop/" . "proj/")
+ ("/Users/tomaszsok/" . ".emacs.d/")
  ("/Users/who_dat/Desktop/usr/GolangTraining/20_struct/" . "02_struct_fields_values_initialization/")
  ("/Users/who_dat/Desktop/usr/GolangTraining/" . "20_struct/")
  ("/" . "Users/")
- ("/Users/" . "who_dat/")
+ ("/Users/" . "tomaszsok/")
  ("/Users/who_dat/Desktop/usr/drake/routes/unlisted/" . "reducers/")
  ("/Users/who_dat/Desktop/usr/drake/routes/" . "unlisted/")
  ("/Users/who_dat/Desktop/usr/drake/" . "routes/")
@@ -17,6 +25,9 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/Users/tomaszsok/.emacs.d/customizations/"
+ "/Users/tomaszsok/Desktop/proj/api/raise/src/services/card/"
+ "/Users/tomaszsok/.emacs.d/"
  "/Users/who_dat/.emacs.d/customizations/"
  "/Users/who_dat/.emacs.d/"
  "/Users/who_dat/Desktop/usr/GolangTraining/20_struct/02_struct_fields_values_initialization/"
@@ -25,8 +36,11 @@
 
 ;; ----- ido-work-file-list -----
 (
- "editing.el"
+ "setup-go.el"
+ "barcode.go"
  "ui.el"
+ "card.go"
+ "editing.el"
  "init.el"
  "main.go"
  "filters.js"
@@ -35,6 +49,34 @@
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/Users/tomaszsok/.emacs.d/customizations/" (22757 12711 0 0) "ui.el" "shell-integration.el" "setup-ruby.el" "setup-lua.el" "setup-js.el" "setup-go.el" "setup-clojure.el" "setup-c.el" "personal.el" "navigation.el" "misc.el" "fringe-helper.el/" "elisp-editing.el" "editing.el" "../" "./")
+
+ ("/Users/tomaszsok/.emacs.d/" (22757 27829 0 0) "themes/" "snippets/" "README.md" "projectile-bookmarks.eld" "init.el" "ido.last" "elpa/" "customizations/" "backups/" "auto-save-list/" ".smex-items" ".recentf" ".mc-lists.el" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/tomaszsok/Desktop/proj/api/raise/src/services/" (22757 27848 0 0) "user-events/" "user/" "token/" "promo/" "processing/" "phone/" "payment-method/" "notification-push/" "notification-events/" "notification/" "mapping/" "location/" "listing-events/" "listing/" "list/" "issuance-qc-pg-listener/" "issuance-qc-ior-listener/" "issuance-mapping-ct-listener/" "issuance-io-mapping-registrar/" "issuance-io-announcer/" "issuance-givex-ior-listener/" "issuance-givex-ct-listener/" "issuance-ct-listener/" "issuance-ct-enabler/" "issuance-ct-announcer/" "issuance/" "givex/" "edge/" "device/" "config/" "client-event/" "cart/" "card-info/" "card/" "brand/" "admin/" ".DS_Store" "../" "./")
+
+ ("/Users/tomaszsok/Desktop/proj/api/raise/src/services/payment-method/" (22757 27848 0 0) "proto/" "payment_method.go" "mock/" "legacy/" "grpc/" "config.yaml" "cmd/" "../" "./")
+
+ ("/Users/tomaszsok/Desktop/proj/api/raise/src/services/payment-method/cmd/" (22757 27848 0 0) "payment-method-svc/" "../" "./")
+
+ ("/Users/tomaszsok/Desktop/proj/api/raise/src/services/payment-method/cmd/payment-method-svc/" (22757 27848 0 0) "main.go" "../" "./")
+
+ ("/Users/tomaszsok/Desktop/proj/api/" (22757 27655 0 0) "user_domain.notes" "third_party/" "scripts/" "README.md" "raise/" "Makefile" "k8s/" "Jenkinsfile" "ci/" ".vscode/" ".raisectl/" ".gitignore" ".git/" ".envrc" ".editorconfig" ".DS_Store" "../" "./")
+
+ ("/Users/tomaszsok/" (22757 27850 0 0) "Public/" "Pictures/" "npm-debug.log" "Music/" "Movies/" "Library/" "go/" "emacs-config/" "Downloads/" "Documents/" "Desktop/" "Applications/" ".zshrc" ".zsh_history" ".zsh-update" ".zlogin" ".zcompdump-Tomasz Sok's Macbook Pro-5.0.5" ".zcompdump-Raise’s MacBook Pro-5.0.5" ".zcompdump-Raise’s MacBook Pro (3)-5.0.5" ".viminfo" ".vim/" ".Trash/" ".tmux.conf" ".subversion/" ".stCommitMsg" ".ssh/" ".rvm/" ".pry_history" ".pry/" ".profile" ".pgadmin/" ".oracle_jre_usage/" ".oh-my-zsh/" ".nvm/" ".npm/" ".now.json" ".node_repl_history" ".node-gyp/" ".mkshrc" ".minikube/" ".lesshst" ".kube/" ".jspm/" ".irb-history" ".hyper_plugins/" ".hyper.js" ".hgignore_global" ".gitignore_global" ".gitconfig" ".gem/" ".emacs.d/" ".electron/" ".DS_Store" ".config/" ".CFUserTextEncoding" ".bundle/" ".bashrc" ".bash_profile" ".bash_history" ".babel.json" ".atom/" "../" "./")
+
+ ("/Users/tomaszsok/Desktop/proj/api/raise/src/services/card/" (22732 5148 0 0) "service/" "psql/" "proto/" "model.go" "mock/" "grpc/" "field.go" "design.go" "db/" "config.yaml" "cmd/" "card.go" "barcode.go" "../" "./")
+
+ ("/Users/tomaszsok/Desktop/proj/api/raise/src/" (22711 15272 0 0) "services/" "rlib/" "raisectl/" ".DS_Store" "../" "./")
+
+ ("/Users/tomaszsok/Desktop/proj/api/raise/" (22711 15272 0 0) "src/" "pkg/" "bin/" ".DS_Store" "../" "./")
+
+ ("/Users/" (22557 892 0 0) "tomaszsok/" "Shared/" "raiseadmin/" ".localized" "../" "./")
+
+ ("/Users/tomaszsok/Desktop/proj/" (22746 41709 0 0) "testarg/" "redux-doghouse/" "processing-service/" "old/" "giftcards/" "drake/" "bulk-seller-api/" "bfg-app-server/" "argo/" "api/" ".DS_Store" "../" "./")
+
+ ("/Users/tomaszsok/Desktop/" (22754 47835 0 0) "Screen Shot 2017-04-03 at 4.12.57 PM.png" "Screen Shot 2017-03-31 at 5.06.53 PM.png" "Screen Shot 2017-03-31 at 5.05.00 PM.png" "Screen Shot 2017-03-31 at 2.41.28 PM.png" "Screen Shot 2017-03-28 at 5.17.05 PM.png" "Screen Shot 2017-03-27 at 12.11.37 PM.png" "Screen Shot 2017-03-22 at 6.15.49 PM.png" "sandboxdeloyinstructions.pdf" "reading/" "proj/" "play/" "perf/" "mor" "golangTraining/" "design/" "config/" "ADP Payperiods/" ".localized" ".DS_Store" "../" "./")
+
  ("/Users/who_dat/.emacs.d/elpa/" (22756 22511 0 0) "yasnippet-20170310.1724/" "with-editor-20170111.609/" "use-package-20170319.12/" "tagedit-20161121.55/" "spinner-1.7.3/" "smex-20151212.1409/" "seq-2.19/" "s-20160928.636/" "rainbow-delimiters-20160430.2358/" "queue-0.1.1/" "projectile-20170309.30/" "popup-20160709.729/" "pkg-info-20150517.443/" "paredit-20160615.1325/" "nyan-mode-20160429.1323/" "neotree-20170227.1731/" "multiple-cursors-20170215.552/" "magit-popup-20170308.146/" "magit-20170317.903/" "ido-ubiquitous-20170313.1603/" "ido-completing-read+-20170313.1603/" "gom-mode-20131007.1953/" "go-mode-20170308.1512/" "go-autocomplete-20150903.1940/" "git-gutter-fringe-20170112.2133/" "git-gutter-20161105.656/" "git-commit-20170314.1414/" "fringe-helper-20140620.1409/" "flycheck-20170322.302/" "exec-path-from-shell-20170304.1309/" "epl-20150517.433/" "diminish-20151215.915/" "dash-20170207.2056/" "company-20170315.1754/" "color-theme-sanityinc-tomorrow-readme.txt" "color-theme-sanityinc-solarized-readme.txt" "color-theme-sanityinc-solarized-2.25/" "clojure-mode-extra-font-locking-20170303.2310/" "clojure-mode-20170303.2310/" "cider-20170310.735/" "buffer-move-20160615.1103/" "bind-key-20161218.1520/" "better-defaults-20160619.2308/" "auto-complete-20170124.1845/" "atom-one-dark-theme-20170117.1905/" "async-20170219.942/" "archives/" "0blayout-readme.txt" "../" "./")
 
  ("/Users/who_dat/.emacs.d/" (22756 23602 0 0) "themes/" "snippets/" "projectile-bookmarks.eld" "init.el" "ido.last" "elpa/" "customizations/" "backups/" "auto-save-list/" ".smex-items" ".recentf" ".gitignore" ".git/" "../" "./")
@@ -52,8 +94,6 @@
  ("/Users/who_dat/Desktop/usr/GolangTraining/" (22679 29983 0 0) "streamer/" "Screen Shot 2016-11-25 at 10.43.18 AM.png" "README.md" "main.go" "LICENSE.txt" "code/" "27_code-in-process/" "26_QUESTIONS-FROM-STUDENTS/" "25_code-walk/" "24_testing/" "23_error-handling/" "22_go-routines/" "21_interfaces/" "20_struct/" "19_map/" "18_slice/" "17_array/" "16_exercise-solutions/" "15_bool-expressions/" "14_functions/" "13_exercise-solutions/" "12_if_else-if_else/" "11_switch-statements/" "10_for-loop/" "09_remainder/" "08_pointers/" "07_memory-address/" "06_constants/" "05_blank-identifier/" "04_scope/" "03_variables/" "02_package/" "01_getting-started/" ".gitignore" ".git/" ".DS_Store" "../" "./")
 
  ("/bin/" (22347 13364 0 0) "zsh" "wait4path" "unlink" "test" "tcsh" "sync" "stty" "sleep" "sh" "rmdir" "rm" "rcp" "pwd" "ps" "pax" "mv" "mkdir" "ls" "ln" "link" "launchctl" "ksh" "kill" "hostname" "expr" "ed" "echo" "domainname" "df" "dd" "date" "csh" "cp" "chmod" "cat" "bash" "[" "../" "./")
-
- ("/Users/" (22274 40032 0 0) "who_dat/" "Shared/" "kush_holla/" ".localized" "../" "./")
 
  ("/Users/who_dat/Desktop/usr/drake/routes/unlisted/reducers/" (22650 27355 0 0) "index.js" "filters.js" "edit.js" "actions.js" "../" "./")
 

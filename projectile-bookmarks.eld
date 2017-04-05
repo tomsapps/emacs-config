@@ -1,1 +1,1 @@
-("~/.emacs.d/" "~/Desktop/usr/GolangTraining/" "~/Desktop/usr/drake/")
+("~/.emacs.d/" "~/Desktop/proj/api/" "~/Desktop/proj/giftcards/" "~/Desktop/proj/drake/" "~/Desktop/usr/GolangTraining/" "~/Desktop/usr/drake/")
