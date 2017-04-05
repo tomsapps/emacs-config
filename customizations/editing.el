@@ -42,6 +42,17 @@
 (global-set-key (kbd "C-M-s") 'isearch-forward)
 (global-set-key (kbd "C-M-r") 'isearch-backward)
 
+;; git gutter
+(add-to-list 'load-path "/epla/fringe-helper/fringe-helper.el")
+(require 'git-gutter-fringe)
+(global-git-gutter-mode t)
+
+;; which key
+(use-package which-key
+  :ensure t
+  :config
+  (which-key-mode))
+
 ;; Don't use hard tabs
 (setq-default indent-tabs-mode nil)
 
