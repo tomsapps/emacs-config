@@ -24,9 +24,11 @@
 ;; for a great explanation of emacs color themes.
 ;; https://www.gnu.org/software/emacs/manual/html_node/emacs/Custom-Themes.html
 ;; for a more technical explanation.
-(add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
-(add-to-list 'load-path "~/.emacs.d/themes")
-(load-theme 'solarized t)
+;; (add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
+;; (add-to-list 'load-path "~/.emacs.d/themes")
+;; (require 'atom-one-dark-theme)
+;; (atom-one-dark-theme t)
+(load-file "~/.emacs.d/themes/atom-one-dark-theme.el")
 
 ;; increase font size for better readability
 ; (set-face-attribute 'default nil :height 140)
@@ -70,7 +72,7 @@
 (setq ring-bell-function 'ignore)
 
 ;; icons for neotree
-(use-package all-the-icons)
+;; (use-package all-the-icons)
 
 ;; neotree config
 (use-package neotree)

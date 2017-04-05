@@ -11,7 +11,7 @@
 ;; Go straight to scratch buffer on startup
 (setq inhibit-startup-message t
 	initial-scratch-message nil
-    initial-major-mode 'clojure-mode)
+    initial-major-mode 'go-mode)
 
 ;; Enable normal text size changes
 (global-set-key (kbd "C-+") 'text-scale-increase)
@@ -19,3 +19,4 @@
 
 (add-hook 'css-mode 'electric-pair-mode)
 (add-hook 'scss-mode 'electric-pair-mode)
+(add-hook 'go-mode 'electric-pair-mode)

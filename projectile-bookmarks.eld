@@ -1,0 +1,1 @@
+("~/.emacs.d/" "~/Desktop/usr/GolangTraining/" "~/Desktop/usr/drake/")

@@ -1,0 +1,71 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/who_dat/Desktop/usr/GolangTraining/20_struct/" . "02_struct_fields_values_initialization/")
+ ("/Users/who_dat/Desktop/usr/GolangTraining/" . "20_struct/")
+ ("/" . "Users/")
+ ("/Users/" . "who_dat/")
+ ("/Users/who_dat/Desktop/usr/drake/routes/unlisted/" . "reducers/")
+ ("/Users/who_dat/Desktop/usr/drake/routes/" . "unlisted/")
+ ("/Users/who_dat/Desktop/usr/drake/" . "routes/")
+ ("/Users/who_dat/Desktop/usr/" . "GolangTraining/")
+ ("/Users/who_dat/Desktop/" . "usr/")
+ ("/Users/who_dat/" . ".emacs.d/")
+ ("/Users/who_dat/.emacs.d/" . "themes/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/who_dat/.emacs.d/customizations/"
+ "/Users/who_dat/.emacs.d/"
+ "/Users/who_dat/Desktop/usr/GolangTraining/20_struct/02_struct_fields_values_initialization/"
+ "/Users/who_dat/Desktop/usr/drake/routes/unlisted/reducers/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "ui.el"
+ "init.el"
+ "main.go"
+ "filters.js"
+ "actions.js"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/who_dat/.emacs.d/themes/" (22739 11910 0 0) "zenburn-theme.el" "tomorrow-theme.el" "tomorrow-night-theme.el" "tomorrow-night-eighties-theme.el" "tomorrow-night-bright-theme.el" "tomorrow-night-blue-theme.el" "color-theme-tomorrow.el" "atom-one-dark-theme.el" "../" "./")
+
+ ("/Users/who_dat/.emacs.d/customizations/" (22756 19456 0 0) "ui.el" "shell-integration.el" "setup-ruby.el" "setup-lua.el" "setup-js.el" "setup-clojure.el" "setup-c.el" "personal.el" "navigation.el" "misc.el" "elisp-editing.el" "editing.el" ".#ui.el" "../" "./")
+
+ ("/Users/who_dat/.emacs.d/" (22756 19418 0 0) "themes/" "snippets/" "projectile-bookmarks.eld" "init.el" "ido.last" "elpa/" "customizations/" "backups/" "auto-save-list/" ".smex-items" ".recentf" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/who_dat/" (22753 25064 0 0) "VirtualBox VMs/" "tmux-client-8398.log" "tmux-client-8370.log" "test.out" "systemid.dat" "react-starter-pack/" "Public/" "Pictures/" "newFile.txt" "Music/" "Movies/" "Library/" "henrik-emacs/" "gocode/" "go/" "foo" "emacs_config/" "Downloads/" "dotfiles/" "Documents/" "Desktop/" "crandor/" "Cadence & Slang (Second Edition).pdf" "blank face/" "Applications/" "1pak.txt" ".zshrc" ".zsh_history" ".zsh-update" ".zcompdump-tom’s MacBook Pro-5.0.8" ".yarn-cache/" ".yarn/" ".vnc/" ".vimrc" ".viminfo" ".vim/" ".vagrant.d/" ".v8flags.5.1.281.81.whodat.json" ".v8flags.5.0.71.52.whodat.json" ".Trash/" ".tmux.conf" ".subversion/" ".ssh/" ".sqliterc" ".sqlite_history" ".rspec" ".rbenv/" ".psql_history" ".pry_history" ".pry/" ".oracle_jre_usage/" ".oh-my-zsh/" ".npm/" ".node_repl_history" ".node-gyp/" ".netrc" ".mongorc.js" ".meteorsession" ".meteor/" ".m2/" ".local/" ".lesshst" ".lein/" ".jspm/" ".jsonresume.json" ".irbrc" ".irb_history" ".inputrc" ".hyperterm_plugins/" ".hyper_plugins/" ".hyper.js" ".hushlogin" ".hgignore_global" ".heroku/" ".gitignore_global" ".gitconfig" ".git-credential-cache/" ".gem/" ".emacs.d/" ".electron/" ".DS_Store" ".dbshell" ".cordova/" ".config/" ".codeintel/" ".CFUserTextEncoding" ".cache/" ".bundle/" ".bash_sessions/" ".bash_profile" ".bash_history" ".babel.json" ".atom/" ".android/" "#*message*-20160812-112058#" "../" "./")
+
+ ("/Users/who_dat/Desktop/usr/GolangTraining/20_struct/02_struct_fields_values_initialization/" (22577 10617 0 0) "notes.txt" "main.go" "../" "./")
+
+ ("/Users/who_dat/Desktop/usr/GolangTraining/20_struct/" (22577 10617 0 0) "08_encode_decode/" "07_marshal_unmarshal/" "06_struct-pointer/" "05_promotion/" "04_embedded-types/" "03_methods/" "02_struct_fields_values_initialization/" "01_user-defined-types/" "00_object-oriented/" "../" "./")
+
+ ("/Users/who_dat/Desktop/usr/GolangTraining/" (22679 29983 0 0) "streamer/" "Screen Shot 2016-11-25 at 10.43.18 AM.png" "README.md" "main.go" "LICENSE.txt" "code/" "27_code-in-process/" "26_QUESTIONS-FROM-STUDENTS/" "25_code-walk/" "24_testing/" "23_error-handling/" "22_go-routines/" "21_interfaces/" "20_struct/" "19_map/" "18_slice/" "17_array/" "16_exercise-solutions/" "15_bool-expressions/" "14_functions/" "13_exercise-solutions/" "12_if_else-if_else/" "11_switch-statements/" "10_for-loop/" "09_remainder/" "08_pointers/" "07_memory-address/" "06_constants/" "05_blank-identifier/" "04_scope/" "03_variables/" "02_package/" "01_getting-started/" ".gitignore" ".git/" ".DS_Store" "../" "./")
+
+ ("/bin/" (22347 13364 0 0) "zsh" "wait4path" "unlink" "test" "tcsh" "sync" "stty" "sleep" "sh" "rmdir" "rm" "rcp" "pwd" "ps" "pax" "mv" "mkdir" "ls" "ln" "link" "launchctl" "ksh" "kill" "hostname" "expr" "ed" "echo" "domainname" "df" "dd" "date" "csh" "cp" "chmod" "cat" "bash" "[" "../" "./")
+
+ ("/Users/" (22274 40032 0 0) "who_dat/" "Shared/" "kush_holla/" ".localized" "../" "./")
+
+ ("/Users/who_dat/Desktop/usr/drake/routes/unlisted/reducers/" (22650 27355 0 0) "index.js" "filters.js" "edit.js" "actions.js" "../" "./")
+
+ ("/Users/who_dat/Desktop/usr/drake/routes/unlisted/" (22650 27355 0 0) "selectors/" "reducers/" "index.js" "formatField.js" "formatErrors.js" "constants.js" "components/" "asyncEnter.js" "../" "./")
+
+ ("/Users/who_dat/Desktop/usr/drake/routes/" (22650 27355 0 0) "welcome/" "unlisted/" "support/" "shipments/" "settings/" "root/" "my-listings/" "login/" "locations/" "employees/" "constants.js" "auth/" "add-purchase/" "404/" "../" "./")
+
+ ("/Users/who_dat/Desktop/usr/drake/" (22650 27355 0 0) "webpack.config.js" "webpack/" "tests/" "sync.js" "server.js" "scripts/" "routes/" "README.md" "package.json" "npm-debug.log" "node_modules/" "nightwatch.json" "nightwatch.conf.js" "main.js" "lib/" "index.ejs" "html-reporter.js" "globals.js" "favicon.ico" "example.env" "Dockerfile" "config/" "client.js" "API_DOCUMENTATION/" "__swipe-tests__/" ".gitignore" ".git/" ".eslintrc" ".dockerignore" ".babelrc" "../" "./")
+
+ ("/Users/who_dat/Desktop/usr/" (22733 35502 0 0) "Slice 1.png" "settings-view-updates-btns/" "reselect/" "raise.JPG" "GolangTraining/" "drake/" "decypher/" "css3-cheatsheet.pdf" "clojure/" "2016/" ".DS_Store" "../" "./")
+
+ ("/Users/who_dat/Desktop/" (22733 56108 0 0) "usr/" ".DS_Store" "../" "./")
+
+ ("/Users/who_dat/.emacs.d/elpa/" (22739 10756 0 0) "with-editor-20170111.609/" "tagedit-20161121.55/" "spinner-1.7.3/" "solarized-theme-20161222.109/" "smex-20151212.1409/" "seq-2.19/" "s-20160928.636/" "rainbow-delimiters-20160430.2358/" "queue-0.1.1/" "projectile-20170309.30/" "pkg-info-20150517.443/" "paredit-20160615.1325/" "magit-popup-20170308.146/" "magit-20170317.903/" "ido-ubiquitous-20170313.1603/" "ido-completing-read+-20170313.1603/" "git-commit-20170314.1414/" "exec-path-from-shell-20170304.1309/" "epl-20150517.433/" "dash-20170207.2056/" "clojure-mode-extra-font-locking-20170303.2310/" "clojure-mode-20170303.2310/" "cider-20170310.735/" "better-defaults-20160619.2308/" "async-20170219.942/" "archives/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
