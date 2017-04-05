@@ -12,7 +12,7 @@
  ("/Users/who_dat/Desktop/usr/" . "GolangTraining/")
  ("/Users/who_dat/Desktop/" . "usr/")
  ("/Users/who_dat/" . ".emacs.d/")
- ("/Users/who_dat/.emacs.d/" . "themes/")
+ ("/Users/who_dat/.emacs.d/" . "customizations/")
 )
 
 ;; ----- ido-work-directory-list -----
@@ -25,6 +25,7 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "editing.el"
  "ui.el"
  "init.el"
  "main.go"
@@ -34,13 +35,13 @@
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/Users/who_dat/.emacs.d/customizations/" (22756 23195 0 0) "ui.el" "shell-integration.el" "setup-ruby.el" "setup-lua.el" "setup-js.el" "setup-clojure.el" "setup-c.el" "personal.el" "navigation.el" "misc.el" "elisp-editing.el" "editing.el" "../" "./")
+
+ ("/Users/who_dat/.emacs.d/" (22756 23195 0 0) "themes/" "snippets/" "projectile-bookmarks.eld" "init.el" "ido.last" "elpa/" "customizations/" "backups/" "auto-save-list/" ".smex-items" ".recentf" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/who_dat/" (22756 21766 0 0) "VirtualBox VMs/" "tmux-client-8398.log" "tmux-client-8370.log" "test.out" "systemid.dat" "react-starter-pack/" "Public/" "Pictures/" "newFile.txt" "Music/" "Movies/" "Library/" "henrik-emacs/" "gocode/" "go/" "foo" "emacs_config/" "Downloads/" "dotfiles/" "Documents/" "Desktop/" "crandor/" "Cadence & Slang (Second Edition).pdf" "blank face/" "Applications/" "1pak.txt" ".zshrc" ".zsh_history" ".zsh-update" ".zcompdump-tom’s MacBook Pro-5.0.8" ".yarn-cache/" ".yarn/" ".vnc/" ".vimrc" ".viminfo" ".vim/" ".vagrant.d/" ".v8flags.5.1.281.81.whodat.json" ".v8flags.5.0.71.52.whodat.json" ".Trash/" ".tmux.conf" ".subversion/" ".ssh/" ".sqliterc" ".sqlite_history" ".rspec" ".rbenv/" ".psql_history" ".pry_history" ".pry/" ".oracle_jre_usage/" ".oh-my-zsh/" ".npm/" ".node_repl_history" ".node-gyp/" ".netrc" ".mongorc.js" ".meteorsession" ".meteor/" ".m2/" ".local/" ".lesshst" ".lein/" ".jspm/" ".jsonresume.json" ".irbrc" ".irb_history" ".inputrc" ".hyperterm_plugins/" ".hyper_plugins/" ".hyper.js" ".hushlogin" ".hgignore_global" ".heroku/" ".gitignore_global" ".gitconfig" ".git-credential-cache/" ".gem/" ".emacs.d/" ".electron/" ".DS_Store" ".dbshell" ".cordova/" ".config/" ".codeintel/" ".CFUserTextEncoding" ".cache/" ".bundle/" ".bash_sessions/" ".bash_profile" ".bash_history" ".babel.json" ".atom/" ".android/" "#*message*-20160812-112058#" "../" "./")
+
  ("/Users/who_dat/.emacs.d/themes/" (22739 11910 0 0) "zenburn-theme.el" "tomorrow-theme.el" "tomorrow-night-theme.el" "tomorrow-night-eighties-theme.el" "tomorrow-night-bright-theme.el" "tomorrow-night-blue-theme.el" "color-theme-tomorrow.el" "atom-one-dark-theme.el" "../" "./")
-
- ("/Users/who_dat/.emacs.d/customizations/" (22756 19456 0 0) "ui.el" "shell-integration.el" "setup-ruby.el" "setup-lua.el" "setup-js.el" "setup-clojure.el" "setup-c.el" "personal.el" "navigation.el" "misc.el" "elisp-editing.el" "editing.el" ".#ui.el" "../" "./")
-
- ("/Users/who_dat/.emacs.d/" (22756 19418 0 0) "themes/" "snippets/" "projectile-bookmarks.eld" "init.el" "ido.last" "elpa/" "customizations/" "backups/" "auto-save-list/" ".smex-items" ".recentf" ".gitignore" ".git/" "../" "./")
-
- ("/Users/who_dat/" (22753 25064 0 0) "VirtualBox VMs/" "tmux-client-8398.log" "tmux-client-8370.log" "test.out" "systemid.dat" "react-starter-pack/" "Public/" "Pictures/" "newFile.txt" "Music/" "Movies/" "Library/" "henrik-emacs/" "gocode/" "go/" "foo" "emacs_config/" "Downloads/" "dotfiles/" "Documents/" "Desktop/" "crandor/" "Cadence & Slang (Second Edition).pdf" "blank face/" "Applications/" "1pak.txt" ".zshrc" ".zsh_history" ".zsh-update" ".zcompdump-tom’s MacBook Pro-5.0.8" ".yarn-cache/" ".yarn/" ".vnc/" ".vimrc" ".viminfo" ".vim/" ".vagrant.d/" ".v8flags.5.1.281.81.whodat.json" ".v8flags.5.0.71.52.whodat.json" ".Trash/" ".tmux.conf" ".subversion/" ".ssh/" ".sqliterc" ".sqlite_history" ".rspec" ".rbenv/" ".psql_history" ".pry_history" ".pry/" ".oracle_jre_usage/" ".oh-my-zsh/" ".npm/" ".node_repl_history" ".node-gyp/" ".netrc" ".mongorc.js" ".meteorsession" ".meteor/" ".m2/" ".local/" ".lesshst" ".lein/" ".jspm/" ".jsonresume.json" ".irbrc" ".irb_history" ".inputrc" ".hyperterm_plugins/" ".hyper_plugins/" ".hyper.js" ".hushlogin" ".hgignore_global" ".heroku/" ".gitignore_global" ".gitconfig" ".git-credential-cache/" ".gem/" ".emacs.d/" ".electron/" ".DS_Store" ".dbshell" ".cordova/" ".config/" ".codeintel/" ".CFUserTextEncoding" ".cache/" ".bundle/" ".bash_sessions/" ".bash_profile" ".bash_history" ".babel.json" ".atom/" ".android/" "#*message*-20160812-112058#" "../" "./")
 
  ("/Users/who_dat/Desktop/usr/GolangTraining/20_struct/02_struct_fields_values_initialization/" (22577 10617 0 0) "notes.txt" "main.go" "../" "./")
 

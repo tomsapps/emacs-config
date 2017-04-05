@@ -12,9 +12,22 @@
         try-expand-dabbrev-from-kill
         try-complete-lisp-symbol-partially
         try-complete-lisp-symbol))
-;; neotree stuff
 
+;; neotree stuff
 (use-package neotree)
+
+;; multiple cursors
+(require 'multiple-cursors)
+
+;; move buffers like human
+(global-set-key (kbd "<C-S-up>")     'buf-move-up)
+(global-set-key (kbd "<C-S-down>")   'buf-move-down)
+(global-set-key (kbd "<C-S-left>")   'buf-move-left)
+(global-set-key (kbd "<C-S-right>")  'buf-move-right)
+
+;; By default the point will switch along with the moving buffer
+;; (this makes it stay)
+(setq buffer-move-stay-after-swap t)
 
 ;; Highlights matching parenthesis
 (show-paren-mode 1)
