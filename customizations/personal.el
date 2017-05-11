@@ -13,10 +13,13 @@
 (global-set-key (kbd "M-p") 'move-line-up)
 (global-set-key (kbd "M-n") 'move-line-down)
 
+;; number windows for organization
+;; (require 'window-number)
+;; (window-number-mode)
 
 ;; rebind meta to command key
-(setq mac-command-modifier 'meta)
-(setq mac-option-modifier nil)
+;; (setq mac-command-modifier 'meta)
+(setq mac-option-modifier 'meta)
 
 ;; set these to something better though
 ; (global-set-key [triple-wheel-left] 'previous-buffer)

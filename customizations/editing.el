@@ -33,6 +33,7 @@
 (show-paren-mode 1)
 
 ;; Highlight current line
+(setq show-paren-delay 0)
 (global-hl-line-mode 1)
 
 ;; Interactive search key bindings. By default, C-s runs
@@ -105,3 +106,8 @@
 (setq yas-snippet-dirs
       '("~/.emacs.d/snippets"                 ;; personal snippets
         ))
+
+;; icicles
+(add-to-list 'load-path "../elpa/icicles-20170409.1830")
+(require 'icicles)
+(icy-mode 1)

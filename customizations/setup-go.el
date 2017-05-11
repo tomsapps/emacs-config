@@ -1,19 +1,60 @@
 (add-hook 'go-mode-hook 'electric-pair-mode)
 
 ;; autocomplete
-(defun auto-complete-for-go ()
-  (auto-complete-mode 1))
-(add-hook 'go-mode-hook 'auto-complete-for-go)
+(add-to-list 'load-path "../customizations")
+;; (require 'go-mode-autoloads)
 
-(with-eval-after-load 'go-mode
-  (require 'go-autocomplete))
+(require 'auto-complete-config)
+(ac-config-default)
 
-( my-go-mode-hook ()
-  ; Call Gofmt before saving                                                    
+;; (defun auto-complete-for-go ()
+;;   (auto-complete-mode 1))
+;; (add-hook 'go-mode-hook 'auto-complete-for-go)
+
+;; (with-eval-after-load 'go-mode
+;;   (require 'go-autocomplete))
+
+;;Format before saving
+(defun go-mode-setup ()
+  (go-eldoc-setup)
+  (add-hook 'before-save-hook 'gofmt-before-save))
+(add-hook 'go-mode-hook 'go-mode-setup)
+
+;;Goimports
+(defun go-mode-setup ()
+  (go-eldoc-setup)
+  (setq gofmt-command "goimports")
+  (add-hook 'before-save-hook 'gofmt-before-save))
+(add-hook 'go-mode-hook 'go-mode-setup)
+
+;;Godef, shows function definition when calling godef-jump
+(defun go-mode-setup ()
+  (go-eldoc-setup)
+  (setq gofmt-command "goimports")
   (add-hook 'before-save-hook 'gofmt-before-save)
-  ; Godef jump key binding                                                      
-  (local-set-key (kbd "M-.") 'godef-jump)
-  (local-set-key (kbd "M-*") 'pop-tag-mark)
-  )
+  (local-set-key (kbd "M-.") 'godef-jump))
+(add-hook 'go-mode-hook 'go-mode-setup)
 
-(add-hook 'go-mode-hook 'my-go-mode-hook)
+;;Custom Compile Command
+(defun go-mode-setup ()
+  (setq compile-command "go build -v && go test -v && go vet && golint && errcheck")
+  (define-key (current-local-map) "\C-c\C-c" 'compile)
+  (go-eldoc-setup)
+  (setq gofmt-command "goimports")
+  (add-hook 'before-save-hook 'gofmt-before-save)
+  (local-set-key (kbd "M-.") 'godef-jump))
+(add-hook 'go-mode-hook 'go-mode-setup)
+
+;;Load auto-complete
+(ac-config-default)
+(require 'auto-complete-config)
+(require 'go-autocomplete)
+
+(add-to-list 'load-path (concat (getenv "GOPATH")  "/src/github.com/golang/lint/misc/emacs"))
+(require 'golint)
+
+;;Project Explorer
+;; (require 'project-explorer)
+;; (global-set-key (kbd "M-e") 'project-explorer-toggle)
+
+(add-hook 'go-mode-hook 'go-mode-setup)
