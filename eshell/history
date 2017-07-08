@@ -1,6 +1,3 @@
-ls resources/
-ls
-cp resources data
 man cp
 cp -R resources data
 ls resources/
@@ -126,3 +123,6 @@ curl -sX GET https://app.datadoghq.com/api/v1/dash
 man jq
 ./backup-dashboards.sh
 echo "hello class!"
+ls
+pwd
+less temp 
