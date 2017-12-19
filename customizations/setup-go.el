@@ -19,3 +19,5 @@
     (godoc-mode)
     (view-mode)
     (linum-mode -1)))
+
+;; (require '/Users/andrewmelis/dev/personal/go/bin/guru)

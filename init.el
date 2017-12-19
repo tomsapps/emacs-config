@@ -173,6 +173,7 @@
  '(global-linum-mode t)
  '(global-rbenv-mode t)
  '(global-subword-mode t)
+ '(haskell-process-type (quote cabal-repl))
  '(haskell-stylish-on-save t)
  '(ibuffer-saved-filter-groups nil)
  '(ibuffer-saved-filters
@@ -198,7 +199,7 @@
  '(menu-bar-mode nil)
  '(package-selected-packages
    (quote
-    (hindent haskell-mode mustache-mode nginx-mode auctex-latexmk helm-bibtex dockerfile-mode protobuf-mode helm-ag groovy-mode yaml-mode terraform-mode tagedit smex smartparens ruby-compilation rspec-mode rbenv rainbow-mode rainbow-delimiters rainbow-blocks projectile-rails org multi-term markdown-mode magit kibit-helper jump ido-ubiquitous helm-swoop helm-dash haml-mode graphviz-dot-mode go-eldoc framemove feature-mode exec-path-from-shell deft color-theme-tango color-theme-solarized clojure-mode-extra-font-locking clojure-cheatsheet clj-refactor base16-theme alchemist ag adoc-mode)))
+    (evil scala-mode go-mode coffee-mode hindent haskell-mode mustache-mode nginx-mode auctex-latexmk helm-bibtex dockerfile-mode protobuf-mode helm-ag groovy-mode yaml-mode terraform-mode tagedit smex smartparens ruby-compilation rspec-mode rbenv rainbow-mode rainbow-delimiters rainbow-blocks projectile-rails org multi-term markdown-mode magit kibit-helper jump ido-ubiquitous helm-swoop helm-dash haml-mode graphviz-dot-mode go-eldoc framemove feature-mode exec-path-from-shell deft color-theme-tango color-theme-solarized clojure-mode-extra-font-locking clojure-cheatsheet clj-refactor base16-theme alchemist ag adoc-mode)))
  '(rbenv-show-active-ruby-in-modeline nil)
  '(rspec-use-rake-when-possible nil)
  '(show-paren-mode t)
