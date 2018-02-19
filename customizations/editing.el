@@ -87,3 +87,7 @@
 (setq comint-buffer-maximum-size 2048)
 (add-hook 'comint-output-filter-functions 'comint-truncate-buffer)
 
+;; Folding
+(vimish-fold-global-mode 1)
+(global-set-key (kbd "C-c f") #'vimish-fold)
+(global-set-key (kbd "C-c d") #'vimish-fold-delete)

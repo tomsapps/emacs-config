@@ -22,6 +22,8 @@
 ;; Set winner-mode (C-c, left and C-c, right to undo/redo window actions)
 (winner-mode 1)
 
+(nyan-mode 1)
+
 ;; Use windmove package (shift+arrows to move around windows)
 ;; (windmove-default-keybindings)
 
@@ -53,6 +55,7 @@
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
 (add-to-list 'load-path "~/.emacs.d/themes")
 ;; (load-theme 'tomorrow-night-eighties-MINE t)
+(load-theme 'atom-one-dark t)
 
 ;; increase font size for better readability
 (set-face-attribute 'default nil :height 140)
